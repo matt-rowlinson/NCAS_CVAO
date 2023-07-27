@@ -1,0 +1,9 @@
+*.nc
+*.nc4
+LOGS/
+Logs/
+logs
+*.log
+slurm*
+*pycache*
+*png

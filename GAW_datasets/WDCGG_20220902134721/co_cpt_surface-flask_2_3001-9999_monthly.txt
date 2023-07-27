@@ -1,0 +1,336 @@
+# header_lines : 200
+# Data_Set_Name : co_cpt_surface-flask_2_3001-9999_monthly
+# Data_Set_Version : 0002-1009-3001-01-02-3001_2022-08-03-0839
+# Data_Set_Fair_Use : For Scientific purposes, access to these data is unlimited and provided without charge. By their use you accept that an offer of co-authorship will be made through personal contact with the contributors whenever substantial use is made of their data. In all cases, an acknowledgement must be made to the contributors and to the data centre when these data are used within a publication.
+# Data_Set_DOI : 10.15138/33bv-s284
+# Data_Set_Citation_Format : 
+#
+# GLOBAL ATTRIBUTES
+#
+# site_gaw_id : CPT
+# site_gaw_type : GAW Global
+# site_name : Cape Point
+# site_country/territory : South Africa
+# site_wmo_region : REGION I (Africa)
+# site_address1 : South African Weather Servicec/o CSIR (Environmentek)P.O. Box 320Stellenbosch 7599South Africa
+# site_address2 : 
+# site_address3 : 
+# site_latitude : -34.3534812927
+# site_longitude : 18.4896831512
+# site_elevation : 230
+# site_elevation_unit : m
+# site_lst2utc : UTC+02:00
+# site_climate_zone : Csb
+# site_climate_zone:comment : Warm temperate climate with dry and warm summer
+# dataset_creation_date : 2022-08-15
+# dataset_parameter : co
+# dataset_parameter_large_class : Reactive Gas
+# dataset_parameter_small_class : 
+# dataset_parameter_name_1 : CO
+# dataset_parameter_name_2 : carbon monoxide
+# dataset_parameter_name_3 : 
+# dataset_parameter_name_4 : 
+# dataset_parameter_name_5 : 
+# dataset_project : surface-flask
+# dataset_platform : fixed station
+# dataset_selection : All monthly data
+# dataset_selection_tag : monthly
+# dataset_time_zone : UTC
+# dataset_start_date : 2010-02-01T00:00:00Z
+# dataset_end_date : 2021-12-01T00:00:00Z
+# dataset_statistic_code : 1
+# dataset_statistic : contributor
+# dataset_description : Atmospheric Carbon Monoxide Dry Air Mole Fractions from  the NOAA GML Carbon Cycle Cooperative Global Air Sampling  Network, 1988-2021  Reference scale:  WMO CO_X2014A
+# dataset_description : 
+# dataset_description : These data are provided by NOAA. Principal investigators include Gabrielle Petron (NOAA). Key partners include Casper Labuschagne (SAWS) AND South African Weather Service (SAWS).
+# dataset_description : 
+# dataset_description : Please cite the product's citation when using data from this dataset : G. Petron, A.M. Crotwell, M.J. Crotwell, E. Dlugokencky,  M. Madronich, E. Moglia, D. Neff, K. Thoning, S. Wolter, J.W. Mund (2022),  Atmospheric Carbon Monoxide Dry Air Mole Fractions  from the NOAA GML Carbon Cycle Cooperative Global Air Sampling Network,  1988-2021, Version: 2022-07-28, https://doi.org/10.15138/33bv-s284
+# dataset_aim_of_observation_code : 1
+# dataset_aim_of_observation : Background observation
+# dataset_buffer_code : 3001
+# dataset_buffer : ccgg
+# dataset_buffer:comment : NOAA Carbon Cycle Greenhouse Gases
+# dataset_footnote_code : 9999
+# dataset_footnote : default
+# dataset_footnote:comment : default
+# dataset_processing : 
+# dataset_hr_mean_processing : 
+# dataset_da_mean_processing : 
+# dataset_mo_mean_processing : Monthly means are produced for each site by first averaging all valid measurement results in the event file with a unique sample date and time.  Values are then extracted at weekly intervals from a smooth curve (Thoning et al., 1989) fitted to the averaged data and these weekly values are averaged for each month to give the monthly means recorded in the files.  Flagged data are excluded from the curve fitting process.  Some sites are excluded from the monthly mean directory because sparse data or a short record does not allow a reasonable curve fit.  Also, if there are 3 or more consecutive months without data, monthly means are not calculated for these months.
+# dataset_transition_flag : 0
+# dataset_transition_comment : Dataset was made from entire historical data provided from contributor from 2018 new WDCGG website open onward
+# dataset_reference_total_listed : 3
+# dataset_reference_1_name : G. Petron, A.M. Crotwell, M.J. Crotwell, E. Dlugokencky,  M. Madronich, E. Moglia, D. Neff, K. Thoning, S. Wolter, J.W. Mund (2022),  Atmospheric Carbon Monoxide Dry Air Mole Fractions  from the NOAA GML Carbon Cycle Cooperative Global Air Sampling Network,  1988-2021, Version: 2022-07-28, https://doi.org/10.15138/33bv-s284
+# dataset_reference_2_name : Novelli, P.C., J.E. Elkins, and L.P. Steele, The development and evaluation of a gravimetric reference scale for measurements of atmospheric carbon monoxide, J. Geophys. Res., 96, 13,109-13,121, 991.
+# dataset_reference_3_name : Novelli, P.C., K.A. Masarie, P.M. Lang, B.D. Hall, R.C. Myers, and J.W. Elkins, Re-analysis of tropospheric CO trends: Effects of the 1997-1998 wild fires, J. Geophys. Res., 108,  D15
+# contributor_organization_code : 2
+# contributor_acronym : NOAA
+# contributor_name : Global Monitoring Laboratory, NOAA
+# contributor_address1 : NOAA/ESRL
+# contributor_address2 : R/GML1
+# contributor_address3 : 325 Broadway Boulder, CO 80305-3328
+# contributor_country/territory : United States of America
+# contributor_url : https://gml.noaa.gov/
+# contact_total_listed : 1
+# contact_1_name : Gabrielle Petron
+# contact_1_address1 : NOAA GML
+# contact_1_address2 : 325 Broadway R/GML-1
+# contact_1_address3 : Boulder, CO 80305-3328
+# contact_1_country/territory : United States of America
+# contact_1_organization : Global Monitoring Laboratory, NOAA
+# contact_1_organization_acronym : NOAA
+# contact_1_organization_url : https://gml.noaa.gov/
+# contact_1_email : Gabrielle.Petron@noaa.gov
+# contact_1_tel : (720) 295-0145
+# contact_1_fax : 
+# collaborator_total_listed : 1
+# collaborator_1_organization_code : 66
+# collaborator_1_acronym : SAWS
+# collaborator_1_name : South African Weather Service
+# collaborator_1_address1 : South African Weather Service (Research Division)
+# collaborator_1_address2 : SAWS, c/o CSIR (Environmentek),
+# collaborator_1_address3 : P.O. Box 320,Stellenbosch 7599
+# collaborator_1_country/territory : South Africa
+# collaborator_1_url : http://www.weathersa.co.za/
+# collaborator_1_person_total_listed : 1
+# collaborator_1_person_1_name : Casper Labuschagne
+# collaborator_1_person_1_address1 : SA Weather Service
+# collaborator_1_person_1_address2 : c/o CSIR (Environmentek)
+# collaborator_1_person_1_address3 : P.O. Box 320,Stellenbosch 7599, South Africa
+# collaborator_1_person_1_country/territory : South Africa
+# collaborator_1_person_1_email : Casper.labuschagne@weathersa.co.za
+# collaborator_1_person_1_tel : 
+# collaborator_1_person_1_fax : 
+# ORG_QCflag_description : This is the NOAA 3-character quality control flag.  Column 1 is the REJECTION flag. An alphanumeric other than a period (.) in the FIRST column indicates a sample with obvious problems during collection or analysis. This measurement should not be interpreted. Column 2 is the SELECTION flag. An alphanumeric other than a period (.) in the SECOND column indicates a sample that is likely valid but does not meet selection criteria determined by the goals of a particular investigation. For example, it might not have been obtained during 'background' conditions.  Column 3 is the INFORMATION flag. An alphanumeric other than a period (.) in the THIRD column provides additional information about the collection or analysis of the sample. A P in the 3rd column of the QC flag indicates the measurement result is preliminary and has not yet been carefully examined by the PI.  The P flag is removed once the quality of the measurement has been determined.
+# intake_height_total_listed : See data part
+# instrument_total_listed : 3
+# instrument_1 : Unknown
+# instrument_1_measurement_method_type_code : 3
+# instrument_1_measurement_method_name : Gas chromatography (RGD)
+# instrument_1_start_date : 2010-02-22T09:01:00Z
+# instrument_1_end_date : 2010-07-01T06:35:00Z
+# instrument_2 : Unknown
+# instrument_2_measurement_method_type_code : 19
+# instrument_2_measurement_method_name : VURF
+# instrument_2_start_date : 2010-02-11T08:53:00Z
+# instrument_2_end_date : 2019-06-06T09:12:00Z
+# instrument_3 : Unknown
+# instrument_3_measurement_method_type_code : 26
+# instrument_3_measurement_method_name : TILDAS
+# instrument_3_start_date : 2019-06-10T11:14:00Z
+# instrument_3_end_date : 2021-12-23T09:20:00Z
+# scale_total_listed : 1
+# scale_1_code : 8
+# scale_1_name : WMO CO X2014A
+# scale_1_start_date : 2010-02-01T00:00:00Z
+# scale_1_end_date : 2021-12-01T00:00:00Z
+# observation_status_code : 1
+# observation_status : Operational/Reporting
+# measurement_calibration : 
+# sampling_frequency_code : 2
+# sampling_frequency : weekly
+#
+# VARIABLE ATTRIBUTES
+#
+# site_gaw_id:long_name : unique_station/mobile_identifiers.
+# site_gaw_id:comment : 3-letter site identification code as defined by GAWSIS for stationary platforms
+# time_components:_FillValue : -999 or -9
+# time_components:long_name : integer_components_of_UTC_date/time
+# time_components:order : year, month, day, hour, minute, second
+# time_components:comment : Air sample collection time (UTC) represented as a 6-element array [year, month, day, hour, minute, second]. Calendar time components as integers.
+# value:_FillValue : -999.999
+# value:units : ppb
+# value:long_name : measured_mole_fraction_of_trace_gas_in_dry_air
+# value:comment : Reported mole fraction, isotope ratio or radioactivity. Units depend on trace gas species.
+# value_unc:_FillValue : -999.999
+# value_unc:units : ppb
+# value_unc:long_name : estimated_uncertainty_in_reported_value
+# value_unc:comment : Standard deviation of the reported mean value when nvalue is greater than 1. Units depend on trace gas species.
+# nvalue:_FillValue : -9
+# nvalue:long_name : number_of_measurements_contributing_to_reported_value
+# nvalue:comment : Number of individual measurements used to compute reported values.
+# latitude:_FillValue : -999.999999999
+# latitude:standard_name : latitude
+# latitude:long_name : sample_latitude_in_decimal_degrees
+# latitude:units : degrees_north
+# latitude:comment : Latitude of sampling location in decimal degrees (north: +; south: -)
+# longitude:_FillValue : -999.999999999
+# longitude:standard_name : longitude
+# longitude:long_name : sample_longitude_in_decimal_degrees
+# longitude:units : degrees_east
+# longitude:comment : Longitude of sampling location in decimal degrees (east: +; west: -)
+# altitude:_FillValue : -999.999
+# altitude:standard_name : altitude
+# altitude:long_name : sample_altitude_in_meters_above_sea_level
+# altitude:units : m
+# altitude:comment : Altitude (elevation + intake height) of air sample collection. Units are meters above sea level (masl).
+# elevation:_FillValue : -999.999
+# elevation:standard_name : elevation
+# elevation:long_name : surface_elevation_in_meters_above_sea_level
+# elevation:units : m
+# elevation:comment : Station height (m) above sea level
+# intake_height:_FillValue : -999.999
+# intake_height:long_name : sample_intake_height_in_meters_above_ground_level
+# intake_height:units : m
+# intake_height:comment : Sampling height (depth) of air (seawater) above ground (below sea level) (height: +; depth: -) (m)
+# flask_no:_FillValue : -999.999
+# flask_no:long_name : sample_flask_no
+# flask_no:comment : Identification code (or number) of flask used for observation
+# ORG_QCflag:_FillValue : -999.999
+# ORG_QCflag:long_name : original_quality_control_flag
+# ORG_QCflag:comment : Details of original data quality control flags should be specified by contributors in metadata.
+# QCflag:_FillValue : -9
+# QCflag:long_name : quality_control_flag
+# QCflag:comment : 1 Valid (background) data considered "background"
+# QCflag:comment : 2 Valid data considered valid other than "background," or all valid data without categorization
+# QCflag:comment : 3 Invalid data considered unfit for use (questionable/erroneous/absent data)
+# QCflag:comment : Details of correspondence between original data quality control flags and WDCGG data flags should be specified by contributors in metadata.
+# instrument:_FillValue : -9
+# instrument:long_name : instrument_ID_to_detect_atmospheric_parameter
+# instrument:comment : A numeric field that identifies the instrument.
+# measurement_method:_FillValue : -9
+# measurement_method:long_name : measurement_method_history
+# measurement_method:comment : A numeric field that identifies the measurement method.
+# scale:_FillValue : -9
+# scale:long_name : calibration_scale_history
+# scale:comment : A numeric field that identifies the calibration scale. Measurements are relative to reported calibration scale.
+#
+# VARIABLE ORDER
+#
+# site_gaw_id year month day hour minute second year month day hour minute second value value_unc nvalue latitude longitude altitude elevation intake_height flask_no ORG_QCflag QCflag instrument measurement_method scale
+CPT 2010 02 01 00 00 00 -999 -9 -9 -9 -9 -9 42.99 -999.999 -9 -34.3534812927 18.4896831512 -999.999 230 -999.999 -999.999 -999.999 1 -9 -9 8
+CPT 2010 03 01 00 00 00 -999 -9 -9 -9 -9 -9 44.08 -999.999 -9 -34.3534812927 18.4896831512 -999.999 230 -999.999 -999.999 -999.999 1 -9 -9 8
+CPT 2010 04 01 00 00 00 -999 -9 -9 -9 -9 -9 46.35 -999.999 -9 -34.3534812927 18.4896831512 -999.999 230 -999.999 -999.999 -999.999 1 -9 -9 8
+CPT 2010 05 01 00 00 00 -999 -9 -9 -9 -9 -9 49.44 -999.999 -9 -34.3534812927 18.4896831512 -999.999 230 -999.999 -999.999 -999.999 1 -9 -9 8
+CPT 2010 06 01 00 00 00 -999 -9 -9 -9 -9 -9 54.94 -999.999 -9 -34.3534812927 18.4896831512 -999.999 230 -999.999 -999.999 -999.999 1 -9 -9 8
+CPT 2010 07 01 00 00 00 -999 -9 -9 -9 -9 -9 60.20 -999.999 -9 -34.3534812927 18.4896831512 -999.999 230 -999.999 -999.999 -999.999 1 -9 -9 8
+CPT 2010 08 01 00 00 00 -999 -9 -9 -9 -9 -9 62.44 -999.999 -9 -34.3534812927 18.4896831512 -999.999 230 -999.999 -999.999 -999.999 1 -9 -9 8
+CPT 2010 09 01 00 00 00 -999 -9 -9 -9 -9 -9 67.62 -999.999 -9 -34.3534812927 18.4896831512 -999.999 230 -999.999 -999.999 -999.999 1 -9 -9 8
+CPT 2010 10 01 00 00 00 -999 -9 -9 -9 -9 -9 72.95 -999.999 -9 -34.3534812927 18.4896831512 -999.999 230 -999.999 -999.999 -999.999 1 -9 -9 8
+CPT 2010 11 01 00 00 00 -999 -9 -9 -9 -9 -9 68.71 -999.999 -9 -34.3534812927 18.4896831512 -999.999 230 -999.999 -999.999 -999.999 1 -9 -9 8
+CPT 2010 12 01 00 00 00 -999 -9 -9 -9 -9 -9 56.19 -999.999 -9 -34.3534812927 18.4896831512 -999.999 230 -999.999 -999.999 -999.999 1 -9 -9 8
+CPT 2011 01 01 00 00 00 -999 -9 -9 -9 -9 -9 47.17 -999.999 -9 -34.3534812927 18.4896831512 -999.999 230 -999.999 -999.999 -999.999 1 -9 -9 8
+CPT 2011 02 01 00 00 00 -999 -9 -9 -9 -9 -9 45.43 -999.999 -9 -34.3534812927 18.4896831512 -999.999 230 -999.999 -999.999 -999.999 1 -9 -9 8
+CPT 2011 03 01 00 00 00 -999 -9 -9 -9 -9 -9 46.47 -999.999 -9 -34.3534812927 18.4896831512 -999.999 230 -999.999 -999.999 -999.999 1 -9 -9 8
+CPT 2011 04 01 00 00 00 -999 -9 -9 -9 -9 -9 47.47 -999.999 -9 -34.3534812927 18.4896831512 -999.999 230 -999.999 -999.999 -999.999 1 -9 -9 8
+CPT 2011 05 01 00 00 00 -999 -9 -9 -9 -9 -9 49.04 -999.999 -9 -34.3534812927 18.4896831512 -999.999 230 -999.999 -999.999 -999.999 1 -9 -9 8
+CPT 2011 06 01 00 00 00 -999 -9 -9 -9 -9 -9 52.66 -999.999 -9 -34.3534812927 18.4896831512 -999.999 230 -999.999 -999.999 -999.999 1 -9 -9 8
+CPT 2011 07 01 00 00 00 -999 -9 -9 -9 -9 -9 56.31 -999.999 -9 -34.3534812927 18.4896831512 -999.999 230 -999.999 -999.999 -999.999 1 -9 -9 8
+CPT 2011 08 01 00 00 00 -999 -9 -9 -9 -9 -9 60.04 -999.999 -9 -34.3534812927 18.4896831512 -999.999 230 -999.999 -999.999 -999.999 1 -9 -9 8
+CPT 2011 09 01 00 00 00 -999 -9 -9 -9 -9 -9 65.22 -999.999 -9 -34.3534812927 18.4896831512 -999.999 230 -999.999 -999.999 -999.999 1 -9 -9 8
+CPT 2011 10 01 00 00 00 -999 -9 -9 -9 -9 -9 65.21 -999.999 -9 -34.3534812927 18.4896831512 -999.999 230 -999.999 -999.999 -999.999 1 -9 -9 8
+CPT 2011 11 01 00 00 00 -999 -9 -9 -9 -9 -9 58.51 -999.999 -9 -34.3534812927 18.4896831512 -999.999 230 -999.999 -999.999 -999.999 1 -9 -9 8
+CPT 2011 12 01 00 00 00 -999 -9 -9 -9 -9 -9 50.87 -999.999 -9 -34.3534812927 18.4896831512 -999.999 230 -999.999 -999.999 -999.999 1 -9 -9 8
+CPT 2012 01 01 00 00 00 -999 -9 -9 -9 -9 -9 45.96 -999.999 -9 -34.3534812927 18.4896831512 -999.999 230 -999.999 -999.999 -999.999 1 -9 -9 8
+CPT 2012 02 01 00 00 00 -999 -9 -9 -9 -9 -9 43.19 -999.999 -9 -34.3534812927 18.4896831512 -999.999 230 -999.999 -999.999 -999.999 1 -9 -9 8
+CPT 2012 03 01 00 00 00 -999 -9 -9 -9 -9 -9 43.94 -999.999 -9 -34.3534812927 18.4896831512 -999.999 230 -999.999 -999.999 -999.999 1 -9 -9 8
+CPT 2012 04 01 00 00 00 -999 -9 -9 -9 -9 -9 47.22 -999.999 -9 -34.3534812927 18.4896831512 -999.999 230 -999.999 -999.999 -999.999 1 -9 -9 8
+CPT 2012 05 01 00 00 00 -999 -9 -9 -9 -9 -9 51.51 -999.999 -9 -34.3534812927 18.4896831512 -999.999 230 -999.999 -999.999 -999.999 1 -9 -9 8
+CPT 2012 06 01 00 00 00 -999 -9 -9 -9 -9 -9 57.63 -999.999 -9 -34.3534812927 18.4896831512 -999.999 230 -999.999 -999.999 -999.999 1 -9 -9 8
+CPT 2012 07 01 00 00 00 -999 -9 -9 -9 -9 -9 61.11 -999.999 -9 -34.3534812927 18.4896831512 -999.999 230 -999.999 -999.999 -999.999 1 -9 -9 8
+CPT 2012 08 01 00 00 00 -999 -9 -9 -9 -9 -9 62.08 -999.999 -9 -34.3534812927 18.4896831512 -999.999 230 -999.999 -999.999 -999.999 1 -9 -9 8
+CPT 2012 09 01 00 00 00 -999 -9 -9 -9 -9 -9 64.72 -999.999 -9 -34.3534812927 18.4896831512 -999.999 230 -999.999 -999.999 -999.999 1 -9 -9 8
+CPT 2012 10 01 00 00 00 -999 -9 -9 -9 -9 -9 66.01 -999.999 -9 -34.3534812927 18.4896831512 -999.999 230 -999.999 -999.999 -999.999 1 -9 -9 8
+CPT 2012 11 01 00 00 00 -999 -9 -9 -9 -9 -9 61.23 -999.999 -9 -34.3534812927 18.4896831512 -999.999 230 -999.999 -999.999 -999.999 1 -9 -9 8
+CPT 2012 12 01 00 00 00 -999 -9 -9 -9 -9 -9 53.44 -999.999 -9 -34.3534812927 18.4896831512 -999.999 230 -999.999 -999.999 -999.999 1 -9 -9 8
+CPT 2013 01 01 00 00 00 -999 -9 -9 -9 -9 -9 46.46 -999.999 -9 -34.3534812927 18.4896831512 -999.999 230 -999.999 -999.999 -999.999 1 -9 -9 8
+CPT 2013 02 01 00 00 00 -999 -9 -9 -9 -9 -9 42.73 -999.999 -9 -34.3534812927 18.4896831512 -999.999 230 -999.999 -999.999 -999.999 1 -9 -9 8
+CPT 2013 03 01 00 00 00 -999 -9 -9 -9 -9 -9 44.22 -999.999 -9 -34.3534812927 18.4896831512 -999.999 230 -999.999 -999.999 -999.999 1 -9 -9 8
+CPT 2013 04 01 00 00 00 -999 -9 -9 -9 -9 -9 47.23 -999.999 -9 -34.3534812927 18.4896831512 -999.999 230 -999.999 -999.999 -999.999 1 -9 -9 8
+CPT 2013 05 01 00 00 00 -999 -9 -9 -9 -9 -9 49.39 -999.999 -9 -34.3534812927 18.4896831512 -999.999 230 -999.999 -999.999 -999.999 1 -9 -9 8
+CPT 2013 06 01 00 00 00 -999 -9 -9 -9 -9 -9 53.24 -999.999 -9 -34.3534812927 18.4896831512 -999.999 230 -999.999 -999.999 -999.999 1 -9 -9 8
+CPT 2013 07 01 00 00 00 -999 -9 -9 -9 -9 -9 57.61 -999.999 -9 -34.3534812927 18.4896831512 -999.999 230 -999.999 -999.999 -999.999 1 -9 -9 8
+CPT 2013 08 01 00 00 00 -999 -9 -9 -9 -9 -9 60.14 -999.999 -9 -34.3534812927 18.4896831512 -999.999 230 -999.999 -999.999 -999.999 1 -9 -9 8
+CPT 2013 09 01 00 00 00 -999 -9 -9 -9 -9 -9 61.81 -999.999 -9 -34.3534812927 18.4896831512 -999.999 230 -999.999 -999.999 -999.999 1 -9 -9 8
+CPT 2013 10 01 00 00 00 -999 -9 -9 -9 -9 -9 60.91 -999.999 -9 -34.3534812927 18.4896831512 -999.999 230 -999.999 -999.999 -999.999 1 -9 -9 8
+CPT 2013 11 01 00 00 00 -999 -9 -9 -9 -9 -9 54.57 -999.999 -9 -34.3534812927 18.4896831512 -999.999 230 -999.999 -999.999 -999.999 1 -9 -9 8
+CPT 2013 12 01 00 00 00 -999 -9 -9 -9 -9 -9 48.19 -999.999 -9 -34.3534812927 18.4896831512 -999.999 230 -999.999 -999.999 -999.999 1 -9 -9 8
+CPT 2014 01 01 00 00 00 -999 -9 -9 -9 -9 -9 44.43 -999.999 -9 -34.3534812927 18.4896831512 -999.999 230 -999.999 -999.999 -999.999 1 -9 -9 8
+CPT 2014 02 01 00 00 00 -999 -9 -9 -9 -9 -9 43.24 -999.999 -9 -34.3534812927 18.4896831512 -999.999 230 -999.999 -999.999 -999.999 1 -9 -9 8
+CPT 2014 03 01 00 00 00 -999 -9 -9 -9 -9 -9 44.51 -999.999 -9 -34.3534812927 18.4896831512 -999.999 230 -999.999 -999.999 -999.999 1 -9 -9 8
+CPT 2014 04 01 00 00 00 -999 -9 -9 -9 -9 -9 46.99 -999.999 -9 -34.3534812927 18.4896831512 -999.999 230 -999.999 -999.999 -999.999 1 -9 -9 8
+CPT 2014 05 01 00 00 00 -999 -9 -9 -9 -9 -9 49.77 -999.999 -9 -34.3534812927 18.4896831512 -999.999 230 -999.999 -999.999 -999.999 1 -9 -9 8
+CPT 2014 06 01 00 00 00 -999 -9 -9 -9 -9 -9 54.32 -999.999 -9 -34.3534812927 18.4896831512 -999.999 230 -999.999 -999.999 -999.999 1 -9 -9 8
+CPT 2014 07 01 00 00 00 -999 -9 -9 -9 -9 -9 59.24 -999.999 -9 -34.3534812927 18.4896831512 -999.999 230 -999.999 -999.999 -999.999 1 -9 -9 8
+CPT 2014 08 01 00 00 00 -999 -9 -9 -9 -9 -9 60.97 -999.999 -9 -34.3534812927 18.4896831512 -999.999 230 -999.999 -999.999 -999.999 1 -9 -9 8
+CPT 2014 09 01 00 00 00 -999 -9 -9 -9 -9 -9 61.47 -999.999 -9 -34.3534812927 18.4896831512 -999.999 230 -999.999 -999.999 -999.999 1 -9 -9 8
+CPT 2014 10 01 00 00 00 -999 -9 -9 -9 -9 -9 61.29 -999.999 -9 -34.3534812927 18.4896831512 -999.999 230 -999.999 -999.999 -999.999 1 -9 -9 8
+CPT 2014 11 01 00 00 00 -999 -9 -9 -9 -9 -9 56.62 -999.999 -9 -34.3534812927 18.4896831512 -999.999 230 -999.999 -999.999 -999.999 1 -9 -9 8
+CPT 2014 12 01 00 00 00 -999 -9 -9 -9 -9 -9 49.48 -999.999 -9 -34.3534812927 18.4896831512 -999.999 230 -999.999 -999.999 -999.999 1 -9 -9 8
+CPT 2015 01 01 00 00 00 -999 -9 -9 -9 -9 -9 42.98 -999.999 -9 -34.3534812927 18.4896831512 -999.999 230 -999.999 -999.999 -999.999 1 -9 -9 8
+CPT 2015 02 01 00 00 00 -999 -9 -9 -9 -9 -9 40.63 -999.999 -9 -34.3534812927 18.4896831512 -999.999 230 -999.999 -999.999 -999.999 1 -9 -9 8
+CPT 2015 03 01 00 00 00 -999 -9 -9 -9 -9 -9 42.88 -999.999 -9 -34.3534812927 18.4896831512 -999.999 230 -999.999 -999.999 -999.999 1 -9 -9 8
+CPT 2015 04 01 00 00 00 -999 -9 -9 -9 -9 -9 46.91 -999.999 -9 -34.3534812927 18.4896831512 -999.999 230 -999.999 -999.999 -999.999 1 -9 -9 8
+CPT 2015 05 01 00 00 00 -999 -9 -9 -9 -9 -9 49.51 -999.999 -9 -34.3534812927 18.4896831512 -999.999 230 -999.999 -999.999 -999.999 1 -9 -9 8
+CPT 2015 06 01 00 00 00 -999 -9 -9 -9 -9 -9 52.78 -999.999 -9 -34.3534812927 18.4896831512 -999.999 230 -999.999 -999.999 -999.999 1 -9 -9 8
+CPT 2015 07 01 00 00 00 -999 -9 -9 -9 -9 -9 57.46 -999.999 -9 -34.3534812927 18.4896831512 -999.999 230 -999.999 -999.999 -999.999 1 -9 -9 8
+CPT 2015 08 01 00 00 00 -999 -9 -9 -9 -9 -9 59.84 -999.999 -9 -34.3534812927 18.4896831512 -999.999 230 -999.999 -999.999 -999.999 1 -9 -9 8
+CPT 2015 09 01 00 00 00 -999 -9 -9 -9 -9 -9 61.79 -999.999 -9 -34.3534812927 18.4896831512 -999.999 230 -999.999 -999.999 -999.999 1 -9 -9 8
+CPT 2015 10 01 00 00 00 -999 -9 -9 -9 -9 -9 64.43 -999.999 -9 -34.3534812927 18.4896831512 -999.999 230 -999.999 -999.999 -999.999 1 -9 -9 8
+CPT 2015 11 01 00 00 00 -999 -9 -9 -9 -9 -9 62.83 -999.999 -9 -34.3534812927 18.4896831512 -999.999 230 -999.999 -999.999 -999.999 1 -9 -9 8
+CPT 2015 12 01 00 00 00 -999 -9 -9 -9 -9 -9 56.99 -999.999 -9 -34.3534812927 18.4896831512 -999.999 230 -999.999 -999.999 -999.999 1 -9 -9 8
+CPT 2016 01 01 00 00 00 -999 -9 -9 -9 -9 -9 50.56 -999.999 -9 -34.3534812927 18.4896831512 -999.999 230 -999.999 -999.999 -999.999 1 -9 -9 8
+CPT 2016 02 01 00 00 00 -999 -9 -9 -9 -9 -9 47.13 -999.999 -9 -34.3534812927 18.4896831512 -999.999 230 -999.999 -999.999 -999.999 1 -9 -9 8
+CPT 2016 03 01 00 00 00 -999 -9 -9 -9 -9 -9 49.48 -999.999 -9 -34.3534812927 18.4896831512 -999.999 230 -999.999 -999.999 -999.999 1 -9 -9 8
+CPT 2016 04 01 00 00 00 -999 -9 -9 -9 -9 -9 53.21 -999.999 -9 -34.3534812927 18.4896831512 -999.999 230 -999.999 -999.999 -999.999 1 -9 -9 8
+CPT 2016 05 01 00 00 00 -999 -9 -9 -9 -9 -9 53.03 -999.999 -9 -34.3534812927 18.4896831512 -999.999 230 -999.999 -999.999 -999.999 1 -9 -9 8
+CPT 2016 06 01 00 00 00 -999 -9 -9 -9 -9 -9 55.32 -999.999 -9 -34.3534812927 18.4896831512 -999.999 230 -999.999 -999.999 -999.999 1 -9 -9 8
+CPT 2016 07 01 00 00 00 -999 -9 -9 -9 -9 -9 61.31 -999.999 -9 -34.3534812927 18.4896831512 -999.999 230 -999.999 -999.999 -999.999 1 -9 -9 8
+CPT 2016 08 01 00 00 00 -999 -9 -9 -9 -9 -9 63.23 -999.999 -9 -34.3534812927 18.4896831512 -999.999 230 -999.999 -999.999 -999.999 1 -9 -9 8
+CPT 2016 09 01 00 00 00 -999 -9 -9 -9 -9 -9 62.69 -999.999 -9 -34.3534812927 18.4896831512 -999.999 230 -999.999 -999.999 -999.999 1 -9 -9 8
+CPT 2016 10 01 00 00 00 -999 -9 -9 -9 -9 -9 62.63 -999.999 -9 -34.3534812927 18.4896831512 -999.999 230 -999.999 -999.999 -999.999 1 -9 -9 8
+CPT 2016 11 01 00 00 00 -999 -9 -9 -9 -9 -9 59.18 -999.999 -9 -34.3534812927 18.4896831512 -999.999 230 -999.999 -999.999 -999.999 1 -9 -9 8
+CPT 2016 12 01 00 00 00 -999 -9 -9 -9 -9 -9 51.30 -999.999 -9 -34.3534812927 18.4896831512 -999.999 230 -999.999 -999.999 -999.999 1 -9 -9 8
+CPT 2017 01 01 00 00 00 -999 -9 -9 -9 -9 -9 45.51 -999.999 -9 -34.3534812927 18.4896831512 -999.999 230 -999.999 -999.999 -999.999 1 -9 -9 8
+CPT 2017 02 01 00 00 00 -999 -9 -9 -9 -9 -9 45.02 -999.999 -9 -34.3534812927 18.4896831512 -999.999 230 -999.999 -999.999 -999.999 1 -9 -9 8
+CPT 2017 03 01 00 00 00 -999 -9 -9 -9 -9 -9 46.90 -999.999 -9 -34.3534812927 18.4896831512 -999.999 230 -999.999 -999.999 -999.999 1 -9 -9 8
+CPT 2017 04 01 00 00 00 -999 -9 -9 -9 -9 -9 47.59 -999.999 -9 -34.3534812927 18.4896831512 -999.999 230 -999.999 -999.999 -999.999 1 -9 -9 8
+CPT 2017 05 01 00 00 00 -999 -9 -9 -9 -9 -9 48.88 -999.999 -9 -34.3534812927 18.4896831512 -999.999 230 -999.999 -999.999 -999.999 1 -9 -9 8
+CPT 2017 06 01 00 00 00 -999 -9 -9 -9 -9 -9 54.39 -999.999 -9 -34.3534812927 18.4896831512 -999.999 230 -999.999 -999.999 -999.999 1 -9 -9 8
+CPT 2017 07 01 00 00 00 -999 -9 -9 -9 -9 -9 59.73 -999.999 -9 -34.3534812927 18.4896831512 -999.999 230 -999.999 -999.999 -999.999 1 -9 -9 8
+CPT 2017 08 01 00 00 00 -999 -9 -9 -9 -9 -9 60.61 -999.999 -9 -34.3534812927 18.4896831512 -999.999 230 -999.999 -999.999 -999.999 1 -9 -9 8
+CPT 2017 09 01 00 00 00 -999 -9 -9 -9 -9 -9 61.61 -999.999 -9 -34.3534812927 18.4896831512 -999.999 230 -999.999 -999.999 -999.999 1 -9 -9 8
+CPT 2017 10 01 00 00 00 -999 -9 -9 -9 -9 -9 63.14 -999.999 -9 -34.3534812927 18.4896831512 -999.999 230 -999.999 -999.999 -999.999 1 -9 -9 8
+CPT 2017 11 01 00 00 00 -999 -9 -9 -9 -9 -9 60.11 -999.999 -9 -34.3534812927 18.4896831512 -999.999 230 -999.999 -999.999 -999.999 1 -9 -9 8
+CPT 2017 12 01 00 00 00 -999 -9 -9 -9 -9 -9 53.62 -999.999 -9 -34.3534812927 18.4896831512 -999.999 230 -999.999 -999.999 -999.999 1 -9 -9 8
+CPT 2018 01 01 00 00 00 -999 -9 -9 -9 -9 -9 48.97 -999.999 -9 -34.3534812927 18.4896831512 -999.999 230 -999.999 -999.999 -999.999 1 -9 -9 8
+CPT 2018 02 01 00 00 00 -999 -9 -9 -9 -9 -9 47.02 -999.999 -9 -34.3534812927 18.4896831512 -999.999 230 -999.999 -999.999 -999.999 1 -9 -9 8
+CPT 2018 03 01 00 00 00 -999 -9 -9 -9 -9 -9 48.75 -999.999 -9 -34.3534812927 18.4896831512 -999.999 230 -999.999 -999.999 -999.999 1 -9 -9 8
+CPT 2018 04 01 00 00 00 -999 -9 -9 -9 -9 -9 50.75 -999.999 -9 -34.3534812927 18.4896831512 -999.999 230 -999.999 -999.999 -999.999 1 -9 -9 8
+CPT 2018 05 01 00 00 00 -999 -9 -9 -9 -9 -9 50.84 -999.999 -9 -34.3534812927 18.4896831512 -999.999 230 -999.999 -999.999 -999.999 1 -9 -9 8
+CPT 2018 06 01 00 00 00 -999 -9 -9 -9 -9 -9 54.29 -999.999 -9 -34.3534812927 18.4896831512 -999.999 230 -999.999 -999.999 -999.999 1 -9 -9 8
+CPT 2018 07 01 00 00 00 -999 -9 -9 -9 -9 -9 59.26 -999.999 -9 -34.3534812927 18.4896831512 -999.999 230 -999.999 -999.999 -999.999 1 -9 -9 8
+CPT 2018 08 01 00 00 00 -999 -9 -9 -9 -9 -9 61.87 -999.999 -9 -34.3534812927 18.4896831512 -999.999 230 -999.999 -999.999 -999.999 1 -9 -9 8
+CPT 2018 09 01 00 00 00 -999 -9 -9 -9 -9 -9 63.22 -999.999 -9 -34.3534812927 18.4896831512 -999.999 230 -999.999 -999.999 -999.999 1 -9 -9 8
+CPT 2018 10 01 00 00 00 -999 -9 -9 -9 -9 -9 62.56 -999.999 -9 -34.3534812927 18.4896831512 -999.999 230 -999.999 -999.999 -999.999 1 -9 -9 8
+CPT 2018 11 01 00 00 00 -999 -9 -9 -9 -9 -9 57.26 -999.999 -9 -34.3534812927 18.4896831512 -999.999 230 -999.999 -999.999 -999.999 1 -9 -9 8
+CPT 2018 12 01 00 00 00 -999 -9 -9 -9 -9 -9 51.08 -999.999 -9 -34.3534812927 18.4896831512 -999.999 230 -999.999 -999.999 -999.999 1 -9 -9 8
+CPT 2019 01 01 00 00 00 -999 -9 -9 -9 -9 -9 46.20 -999.999 -9 -34.3534812927 18.4896831512 -999.999 230 -999.999 -999.999 -999.999 1 -9 -9 8
+CPT 2019 02 01 00 00 00 -999 -9 -9 -9 -9 -9 43.78 -999.999 -9 -34.3534812927 18.4896831512 -999.999 230 -999.999 -999.999 -999.999 1 -9 -9 8
+CPT 2019 03 01 00 00 00 -999 -9 -9 -9 -9 -9 46.03 -999.999 -9 -34.3534812927 18.4896831512 -999.999 230 -999.999 -999.999 -999.999 1 -9 -9 8
+CPT 2019 04 01 00 00 00 -999 -9 -9 -9 -9 -9 49.41 -999.999 -9 -34.3534812927 18.4896831512 -999.999 230 -999.999 -999.999 -999.999 1 -9 -9 8
+CPT 2019 05 01 00 00 00 -999 -9 -9 -9 -9 -9 51.61 -999.999 -9 -34.3534812927 18.4896831512 -999.999 230 -999.999 -999.999 -999.999 1 -9 -9 8
+CPT 2019 06 01 00 00 00 -999 -9 -9 -9 -9 -9 55.50 -999.999 -9 -34.3534812927 18.4896831512 -999.999 230 -999.999 -999.999 -999.999 1 -9 -9 8
+CPT 2019 07 01 00 00 00 -999 -9 -9 -9 -9 -9 60.14 -999.999 -9 -34.3534812927 18.4896831512 -999.999 230 -999.999 -999.999 -999.999 1 -9 -9 8
+CPT 2019 08 01 00 00 00 -999 -9 -9 -9 -9 -9 63.53 -999.999 -9 -34.3534812927 18.4896831512 -999.999 230 -999.999 -999.999 -999.999 1 -9 -9 8
+CPT 2019 09 01 00 00 00 -999 -9 -9 -9 -9 -9 66.46 -999.999 -9 -34.3534812927 18.4896831512 -999.999 230 -999.999 -999.999 -999.999 1 -9 -9 8
+CPT 2019 10 01 00 00 00 -999 -9 -9 -9 -9 -9 66.94 -999.999 -9 -34.3534812927 18.4896831512 -999.999 230 -999.999 -999.999 -999.999 1 -9 -9 8
+CPT 2019 11 01 00 00 00 -999 -9 -9 -9 -9 -9 62.82 -999.999 -9 -34.3534812927 18.4896831512 -999.999 230 -999.999 -999.999 -999.999 1 -9 -9 8
+CPT 2019 12 01 00 00 00 -999 -9 -9 -9 -9 -9 59.19 -999.999 -9 -34.3534812927 18.4896831512 -999.999 230 -999.999 -999.999 -999.999 1 -9 -9 8
+CPT 2020 01 01 00 00 00 -999 -9 -9 -9 -9 -9 57.02 -999.999 -9 -34.3534812927 18.4896831512 -999.999 230 -999.999 -999.999 -999.999 1 -9 -9 8
+CPT 2020 02 01 00 00 00 -999 -9 -9 -9 -9 -9 55.38 -999.999 -9 -34.3534812927 18.4896831512 -999.999 230 -999.999 -999.999 -999.999 1 -9 -9 8
+CPT 2020 03 01 00 00 00 -999 -9 -9 -9 -9 -9 55.83 -999.999 -9 -34.3534812927 18.4896831512 -999.999 230 -999.999 -999.999 -999.999 1 -9 -9 8
+CPT 2020 11 01 00 00 00 -999 -9 -9 -9 -9 -9 65.95 -999.999 -9 -34.3534812927 18.4896831512 -999.999 230 -999.999 -999.999 -999.999 1 -9 -9 8
+CPT 2020 12 01 00 00 00 -999 -9 -9 -9 -9 -9 57.02 -999.999 -9 -34.3534812927 18.4896831512 -999.999 230 -999.999 -999.999 -999.999 1 -9 -9 8
+CPT 2021 01 01 00 00 00 -999 -9 -9 -9 -9 -9 49.30 -999.999 -9 -34.3534812927 18.4896831512 -999.999 230 -999.999 -999.999 -999.999 1 -9 -9 8
+CPT 2021 02 01 00 00 00 -999 -9 -9 -9 -9 -9 45.40 -999.999 -9 -34.3534812927 18.4896831512 -999.999 230 -999.999 -999.999 -999.999 1 -9 -9 8
+CPT 2021 03 01 00 00 00 -999 -9 -9 -9 -9 -9 46.05 -999.999 -9 -34.3534812927 18.4896831512 -999.999 230 -999.999 -999.999 -999.999 1 -9 -9 8
+CPT 2021 04 01 00 00 00 -999 -9 -9 -9 -9 -9 49.60 -999.999 -9 -34.3534812927 18.4896831512 -999.999 230 -999.999 -999.999 -999.999 1 -9 -9 8
+CPT 2021 05 01 00 00 00 -999 -9 -9 -9 -9 -9 52.48 -999.999 -9 -34.3534812927 18.4896831512 -999.999 230 -999.999 -999.999 -999.999 1 -9 -9 8
+CPT 2021 06 01 00 00 00 -999 -9 -9 -9 -9 -9 56.47 -999.999 -9 -34.3534812927 18.4896831512 -999.999 230 -999.999 -999.999 -999.999 1 -9 -9 8
+CPT 2021 07 01 00 00 00 -999 -9 -9 -9 -9 -9 62.36 -999.999 -9 -34.3534812927 18.4896831512 -999.999 230 -999.999 -999.999 -999.999 1 -9 -9 8
+CPT 2021 08 01 00 00 00 -999 -9 -9 -9 -9 -9 65.88 -999.999 -9 -34.3534812927 18.4896831512 -999.999 230 -999.999 -999.999 -999.999 1 -9 -9 8
+CPT 2021 09 01 00 00 00 -999 -9 -9 -9 -9 -9 68.14 -999.999 -9 -34.3534812927 18.4896831512 -999.999 230 -999.999 -999.999 -999.999 1 -9 -9 8
+CPT 2021 10 01 00 00 00 -999 -9 -9 -9 -9 -9 68.13 -999.999 -9 -34.3534812927 18.4896831512 -999.999 230 -999.999 -999.999 -999.999 1 -9 -9 8
+CPT 2021 11 01 00 00 00 -999 -9 -9 -9 -9 -9 62.46 -999.999 -9 -34.3534812927 18.4896831512 -999.999 230 -999.999 -999.999 -999.999 1 -9 -9 8
+CPT 2021 12 01 00 00 00 -999 -9 -9 -9 -9 -9 54.15 -999.999 -9 -34.3534812927 18.4896831512 -999.999 230 -999.999 -999.999 -999.999 1 -9 -9 8

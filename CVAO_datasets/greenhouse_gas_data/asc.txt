@@ -1,0 +1,292 @@
+netcdf co2_asc_surface-flask_2_3001-9999_monthly {
+dimensions:
+	time = UNLIMITED ; // (485 currently)
+	station_latitude = 1 ;
+	station_longitude = 1 ;
+	calendar_components = 6 ;
+	string_of_3chars = 3 ;
+	string_of_15chars = 15 ;
+variables:
+	int time(time) ;
+		time:units = "months since 1979-08-01 00:00:00" ;
+		time:standard_name = "time" ;
+		time:calendar = "standard" ;
+	float station_latitude(station_latitude) ;
+		station_latitude:units = "degrees_north" ;
+		station_latitude:long_name = "station_latitude" ;
+	float station_longitude(station_longitude) ;
+		station_longitude:units = "degrees_east" ;
+		station_longitude:long_name = "station_longitude" ;
+	char site_gaw_id(string_of_3chars) ;
+		site_gaw_id:long_name = "unique_station/mobile_identifiers." ;
+		site_gaw_id:comment = "3-letter site identification code as defined by GAWSIS for stationary platforms" ;
+	int start_time_components(time, calendar_components) ;
+		start_time_components:_Fill_CHAR = "-999 or -9" ;
+		start_time_components:long_name = "integer_components_of_UTC_date/time" ;
+		start_time_components:order = "year, month, day, hour, minute, second" ;
+		start_time_components:comment = "Air sample collection time (UTC) represented as a 6-element array [year, month, day, hour, minute, second]. Calendar time components as integers." ;
+	int end_time_components(time, calendar_components) ;
+		end_time_components:_Fill_CHAR = "-999 or -9" ;
+		end_time_components:long_name = "integer_components_of_UTC_date/time" ;
+		end_time_components:order = "year, month, day, hour, minute, second" ;
+		end_time_components:comment = "Air sample collection time (UTC) represented as a 6-element array [year, month, day, hour, minute, second]. Calendar time components as integers." ;
+	double value(time) ;
+		value:_FillValue = -999.999 ;
+		value:long_name = "measured_mole_fraction_of_trace_gas_in_dry_air" ;
+		value:units = "ppm" ;
+		value:comment = "Reported mole fraction, isotope ratio or radioactivity. Units depend on trace gas species." ;
+	double value_scale_conv(time) ;
+		value_scale_conv:long_name = "converted_mole_fraction_of_trace_gas_in_dry_air" ;
+		value_scale_conv:units = "ppm" ;
+		value_scale_conv:comment = "Reported mole fraction, isotope ratio or radioactivity converted to WMO scale. Units depend on trace gas species." ;
+	double value_std(time) ;
+		value_std:_FillValue = -999.999 ;
+		value_std:long_name = "standard_deviation_of_reported_value" ;
+		value_std:units = "ppm" ;
+		value_std:comment = "Standard deviation of the reported mean value when nvalue is greater than 1. Units depend on trace gas species." ;
+	double value_unc(time) ;
+		value_unc:_FillValue = -999.999 ;
+		value_unc:long_name = "total_measurement_uncertainty_in_reported_value" ;
+		value_unc:units = "ppm" ;
+		value_unc:comment = "Total measurement uncertainty in the reported value. Units depend on trace gas species." ;
+	double value_unc_short(time) ;
+		value_unc_short:_FillValue = -999.999 ;
+		value_unc_short:long_name = "estimated_uncertainty_of_short-term_analytical_stability_in_reported_value" ;
+		value_unc_short:units = "ppm" ;
+		value_unc_short:comment = "Estimated uncertainty of short-term analytical stability in the reported value. Units depend on trace gas species." ;
+	double value_unc_long(time) ;
+		value_unc_long:_FillValue = -999.999 ;
+		value_unc_long:long_name = "estimated_uncertainty_of_long-term_analytical_stability_in_reported_value" ;
+		value_unc_long:units = "ppm" ;
+		value_unc_long:comment = "Estimated uncertainty of long-term analytical stability in the reported value. Units depend on trace gas species." ;
+	int nvalue(time) ;
+		nvalue:_FillValue = -9 ;
+		nvalue:standard_name = "number_of_observations" ;
+		nvalue:long_name = "number_of_measurements_contributing_to_reported_value" ;
+		nvalue:comment = "Number of individual measurements used to compute reported values." ;
+	double latitude(time) ;
+		latitude:_FillValue = -999.999999999 ;
+		latitude:standard_name = "latitude" ;
+		latitude:long_name = "sample_latitude_in_decimal_degrees" ;
+		latitude:units = "degrees_north" ;
+		latitude:comment = "Latitude of sampling location in decimal degrees (north: +; south: -)" ;
+	double longitude(time) ;
+		longitude:_FillValue = -999.999999999 ;
+		longitude:standard_name = "longitude" ;
+		longitude:long_name = "sample_longitude_in_decimal_degrees" ;
+		longitude:units = "degrees_east" ;
+		longitude:comment = "Longitude of sampling location in decimal degrees (east: +; west: -)" ;
+	double altitude(time) ;
+		altitude:_FillValue = -999.999 ;
+		altitude:standard_name = "altitude" ;
+		altitude:long_name = "sample_altitude_in_meters_above_sea_level" ;
+		altitude:units = "m" ;
+		altitude:positive = "up" ;
+		altitude:comment = "Altitude (elevation + intake height) of air sample collection. Units are meters above sea level (masl)." ;
+	double elevation(time) ;
+		elevation:_FillValue = -999.999 ;
+		elevation:standard_name = "ground_level_altitude" ;
+		elevation:long_name = "surface_elevation_in_meters_above_sea_level" ;
+		elevation:units = "m" ;
+		elevation:positive = "up" ;
+		elevation:comment = "Station height (m) above sea level" ;
+	double intake_height(time) ;
+		intake_height:_FillValue = -999.999 ;
+		intake_height:long_name = "sample_intake_height_in_meters_above_ground_level" ;
+		intake_height:units = "m" ;
+		intake_height:positive = "up" ;
+		intake_height:comment = "Sampling height (depth) of air (seawater) above ground (below sea level) (height: +; depth: -) (m)" ;
+	char flask_no(time, string_of_15chars) ;
+		flask_no:_Fill_CHAR = "-999.999" ;
+		flask_no:long_name = "sample_flask_no" ;
+		flask_no:comment = "Identification code (or number) of flask used for observation" ;
+	char ORG_QCflag(time, string_of_15chars) ;
+		ORG_QCflag:_Fill_CHAR = "-999.999" ;
+		ORG_QCflag:standard_name = "quality_flag" ;
+		ORG_QCflag:long_name = "original_quality_control_flag" ;
+		ORG_QCflag:comment = "Details of original data quality control flags should be specified by contributors in metadata." ;
+	int QCflag(time) ;
+		QCflag:_FillValue = -9 ;
+		QCflag:standard_name = "quality_flag" ;
+		QCflag:long_name = "quality_control_flag" ;
+		QCflag:comment = "1 Valid (background) data considered \'background\'\n",
+			" 2 Valid data considered valid other than \'background\'\n",
+			" 3 Invalid data considered unfit for use (questionable/erroneous/absent data)\n",
+			" Details of correspondence between original data quality control flags and WDCGG data flags should be specified by contributors in metadata." ;
+	int instrument(time) ;
+		instrument:_FillValue = -9 ;
+		instrument:long_name = "instrument_ID_to_detect_atmospheric_parameter" ;
+		instrument:comment = "A numeric field that identifies the instrument." ;
+	int measurement_method(time) ;
+		measurement_method:_FillValue = -9 ;
+		measurement_method:long_name = "measurement_method_history" ;
+		measurement_method:comment = "A numeric field that identifies the measurement method." ;
+	int scale(time) ;
+		scale:_FillValue = -9 ;
+		scale:long_name = "calibration_scale_history" ;
+		scale:comment = "A numeric field that identifies the calibration scale. Measurements are relative to reported calibration scale." ;
+	char units(time, string_of_15chars) ;
+		units:_Fill_CHAR = "-999.999" ;
+		units:long_name = "unit_of_value" ;
+		units:comment = "Units of value." ;
+	double reserved_1(time) ;
+		reserved_1:_FillValue = -999.999 ;
+		reserved_1:long_name = "reserved_column_for_future_use" ;
+	double reserved_2(time) ;
+		reserved_2:_FillValue = -999.999 ;
+		reserved_2:long_name = "reserved_column_for_future_use" ;
+
+// global attributes:
+		:Data_Set_Version = "0002-1007-1001-01-02-3001_2020-07-31-0856" ;
+		:Data_Set_Fair_Use = "For Scientific purposes, access to these data is unlimited and provided without charge. By their use you accept that an offer of co-authorship will be made through personal contact with the contributors whenever substantial use is made of their data. In all cases, an acknowledgement must be made to the contributors and to the data centre when these data are used within a publication." ;
+		:Data_Set_DOI = "10.15138/wkgj-f215" ;
+		:Data_Set_Citation_Format = "" ;
+		:site_gaw_id = "ASC" ;
+		:site_gaw_type = "GAW Regional" ;
+		:site_name = "Ascension Island" ;
+		:site_country_territory = "United Kingdom of Great Britain and Northern Ireland" ;
+		:site_wmo_region = "REGION I (Africa)" ;
+		:site_address1 = "" ;
+		:site_address2 = "" ;
+		:site_address3 = "" ;
+		:site_latitude = -7.9699997902 ;
+		:site_longitude = -14.3999996185 ;
+		:site_elevation = 91 ;
+		:site_elevation_unit = "m" ;
+		:site_lst2utc = "UTC" ;
+		:site_climate_zone = "UNK" ;
+		:site_climate_zone_comment = "Unknown" ;
+		:dataset_creation_date = "2021-03-10" ;
+		:dataset_parameter = "co2" ;
+		:dataset_parameter_large_class = "Greenhouse Gas" ;
+		:dataset_parameter_small_class = "" ;
+		:dataset_parameter_name_1 = "CO2" ;
+		:dataset_parameter_name_2 = "carbon dioxide" ;
+		:dataset_parameter_name_3 = "" ;
+		:dataset_parameter_name_4 = "" ;
+		:dataset_parameter_name_5 = "" ;
+		:dataset_project = "surface-flask" ;
+		:dataset_platform = "fixed station" ;
+		:dataset_selection = "All monthly data" ;
+		:dataset_selection_tag = "monthly" ;
+		:dataset_time_zone = "UTC" ;
+		:dataset_start_date = "1979-08-01T00:00:00Z" ;
+		:dataset_end_date = "2019-12-01T00:00:00Z" ;
+		:dataset_statistic_code = 1 ;
+		:dataset_statistic = "contributor" ;
+		:dataset_description = "Atmospheric Carbon Dioxide Dry Air Mole Fractions from the NOAA GMD Carbon Cycle Cooperative Global Air Sampling Network, 1968-2019\n",
+			"These data are provided by NOAA. Principal investigators include Ed Dlugokencky (NOAA). Key partners include United Kingdom Meteorological Office (UKMO)." ;
+		:dataset_aim_of_observation_code = 1 ;
+		:dataset_aim_of_observation = "Background observation" ;
+		:dataset_buffer_code = 3001 ;
+		:dataset_buffer = "ccgg" ;
+		:dataset_buffer_comment = "NOAA Carbon Cycle Greenhouse Gases" ;
+		:dataset_footnote_code = 9999 ;
+		:dataset_footnote = "default" ;
+		:dataset_footnote_comment = "default" ;
+		:dataset_processing = "Uncertainties of the CO2 measurements are now included.\n",
+			"Key components of it are our ability to propagate the WMO XCO2 scale to working standards, the repeatability of the analyzers used for sample measurement, and agreement between pairs of samples collected simultaneously.\n",
+			"Zhao and Tans (2006) determined that the internal consistency of working standards is +/- 0.02 ppm (68% confidence interval).\n",
+			"The typical repeatability of the analyzers, based on repeated measurements of natural air from a cylinder, is +/- 0.03 ppm.\n",
+			"Average agreement between pairs of samples flushed in series across the entire sampling network is +/- 0.07 ppm." ;
+		:dataset_hr_mean_processing = "" ;
+		:dataset_da_mean_processing = "" ;
+		:dataset_mo_mean_processing = "" ;
+		:dataset_transition_flag = 0 ;
+		:dataset_transition_comment = "Dataset was made from entire historical data provided from contributor from 2018 new WDCGG website open onward" ;
+		:dataset_reference_total_listed = 2 ;
+		:dataset_reference_1_name = "Dlugokencky, E.J., J.W. Mund, A.M. Crotwell, M.J. Crotwell, and K.W. Thoning (2020), Atmospheric Carbon Dioxide Dry Air Mole Fractions from the NOAA GML Carbon Cycle Cooperative Global Air Sampling Network, 1968-2019, Version: 2020-07, https://doi.org/10.15138/wkgj-f215" ;
+		:dataset_reference_2_name = "Conway, T.J., P.P. Tans, L.S. Waterman, K.W. Thoning, D.R. Kitzis, K.A. Masarie, and N. Zhang, Evidence for interannual variability of the carbon cycle from the NOAA/GMD global air sampling network, J. Geophys. Res.,99,22831 22855, 1994." ;
+		:contributor_organization_code = 2 ;
+		:contributor_acronym = "NOAA" ;
+		:contributor_name = "Earth System Research Laboratory, NOAA" ;
+		:contributor_address1 = "R/GMD1" ;
+		:contributor_address2 = "NOAA/ESRL" ;
+		:contributor_address3 = "325 Broadway Boulder, CO 80305-3337" ;
+		:contributor_country_territory = "United States of America" ;
+		:contributor_url = "https://www.esrl.noaa.gov/gmd/index.html" ;
+		:contact_total_listed = 1 ;
+		:contact_1_name = "Ed Dlugokencky" ;
+		:contact_1_address1 = "NOAA ESRL GML" ;
+		:contact_1_address2 = "325 Broadway R/GML-1" ;
+		:contact_1_address3 = "Boulder, CO 80305-3328" ;
+		:contact_1_country_territory = "United States of America" ;
+		:contact_1_organization = "Earth System Research Laboratory, NOAA" ;
+		:contact_1_organization_acronym = "NOAA" ;
+		:contact_1_organization_url = "https://www.esrl.noaa.gov/gmd/index.html" ;
+		:contact_1_email = "ed.dlugokencky@noaa.gov" ;
+		:contact_1_tel = "303-497-6228" ;
+		:contact_1_fax = "" ;
+		:collaborator_total_listed = 1 ;
+		:collaborator_1_organization_code = 80 ;
+		:collaborator_1_acronym = "UKMO" ;
+		:collaborator_1_name = "United Kingdom Meteorological Office" ;
+		:collaborator_1_address1 = "" ;
+		:collaborator_1_address2 = "" ;
+		:collaborator_1_address3 = "" ;
+		:collaborator_1_country_territory = "United Kingdom of Great Britain and Northern Ireland" ;
+		:collaborator_1_url = "http://www.metoffice.gov.uk/" ;
+		:ORG_QCflag_description = "This is the NOAA 3-character quality control flag.  Column 1 is the REJECTION flag. An alphanumeric other than a period (.) in the FIRST column indicates a sample with obvious problems during collection or analysis. This measurement should not be interpreted. Column 2 is the SELECTION flag. An alphanumeric other than a period (.) in the SECOND column indicates a sample that is likely valid but does not meet selection criteria determined by the goals of a particular investigation. For example, it might not have been obtained during \'background\' conditions.  Column 3 is the INFORMATION flag. An alphanumeric other than a period (.) in the THIRD column provides additional information about the collection or analysis of the sample. A P in the 3rd column of the QC flag indicates the measurement result is preliminary and has not yet been carefully examined by the PI.  The P flag is removed once the quality of the measurement has been determined." ;
+		:intake_height_total_listed = "See data part" ;
+		:instrument_total_listed = 2 ;
+		:instrument_1 = "Unknown" ;
+		:instrument_1_measurement_method_type_code = 9 ;
+		:instrument_1_measurement_method_name = "NDIR" ;
+		:instrument_1_start_date = "1979-08-27T10:00:00Z" ;
+		:instrument_1_end_date = "2019-06-02T10:00:00Z" ;
+		:instrument_2 = "Unknown" ;
+		:instrument_2_measurement_method_type_code = 18 ;
+		:instrument_2_measurement_method_name = "CRDS" ;
+		:instrument_2_start_date = "2019-06-17T10:24:00Z" ;
+		:instrument_2_end_date = "2019-12-29T10:02:00Z" ;
+		:scale_total_listed = 1 ;
+		:scale_1_code = 1 ;
+		:scale_1_name = "WMO CO2 X2007" ;
+		:scale_1_start_date = "1979-08-01T00:00:00Z" ;
+		:scale_1_end_date = "2019-12-01T00:00:00Z" ;
+		:observation_status_code = 1 ;
+		:observation_status = "Operational/Reporting" ;
+		:measurement_calibration = "" ;
+		:measurement_calibration_and_scale_transfer_uncertainty = "" ;
+		:sampling_frequency_code = 88 ;
+		:sampling_frequency = "Unknown" ;
+data:
+
+ time = 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 
+    20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 
+    38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 
+    56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 
+    74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 
+    92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 
+    108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 
+    122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 
+    136, 137, 138, 139, 140, 141, 142, 143, 144, 145, 146, 147, 148, 149, 
+    150, 151, 152, 153, 154, 155, 156, 157, 158, 159, 160, 161, 162, 163, 
+    164, 165, 166, 167, 168, 169, 170, 171, 172, 173, 174, 175, 176, 177, 
+    178, 179, 180, 181, 182, 183, 184, 185, 186, 187, 188, 189, 190, 191, 
+    192, 193, 194, 195, 196, 197, 198, 199, 200, 201, 202, 203, 204, 205, 
+    206, 207, 208, 209, 210, 211, 212, 213, 214, 215, 216, 217, 218, 219, 
+    220, 221, 222, 223, 224, 225, 226, 227, 228, 229, 230, 231, 232, 233, 
+    234, 235, 236, 237, 238, 239, 240, 241, 242, 243, 244, 245, 246, 247, 
+    248, 249, 250, 251, 252, 253, 254, 255, 256, 257, 258, 259, 260, 261, 
+    262, 263, 264, 265, 266, 267, 268, 269, 270, 271, 272, 273, 274, 275, 
+    276, 277, 278, 279, 280, 281, 282, 283, 284, 285, 286, 287, 288, 289, 
+    290, 291, 292, 293, 294, 295, 296, 297, 298, 299, 300, 301, 302, 303, 
+    304, 305, 306, 307, 308, 309, 310, 311, 312, 313, 314, 315, 316, 317, 
+    318, 319, 320, 321, 322, 323, 324, 325, 326, 327, 328, 329, 330, 331, 
+    332, 333, 334, 335, 336, 337, 338, 339, 340, 341, 342, 343, 344, 345, 
+    346, 347, 348, 349, 350, 351, 352, 353, 354, 355, 356, 357, 358, 359, 
+    360, 361, 362, 363, 364, 365, 366, 367, 368, 369, 370, 371, 372, 373, 
+    374, 375, 376, 377, 378, 379, 380, 381, 382, 383, 384, 385, 386, 387, 
+    388, 389, 390, 391, 392, 393, 394, 395, 396, 397, 398, 399, 400, 401, 
+    402, 403, 404, 405, 406, 407, 408, 409, 410, 411, 412, 413, 414, 415, 
+    416, 417, 418, 419, 420, 421, 422, 423, 424, 425, 426, 427, 428, 429, 
+    430, 431, 432, 433, 434, 435, 436, 437, 438, 439, 440, 441, 442, 443, 
+    444, 445, 446, 447, 448, 449, 450, 451, 452, 453, 454, 455, 456, 457, 
+    458, 459, 460, 461, 462, 463, 464, 465, 466, 467, 468, 469, 470, 471, 
+    472, 473, 474, 475, 476, 477, 478, 479, 480, 481, 482, 483, 484 ;
+
+ station_latitude = -7.97 ;
+
+ station_longitude = -14.4 ;
+}

@@ -1,0 +1,997 @@
+# header_lines : 200
+# Data_Set_Name : co_cpt_surface-flask_2_3001-9999_event
+# Data_Set_Version : 0002-1009-3001-01-02-3001_2022-08-03-0839
+# Data_Set_Fair_Use : For Scientific purposes, access to these data is unlimited and provided without charge. By their use you accept that an offer of co-authorship will be made through personal contact with the contributors whenever substantial use is made of their data. In all cases, an acknowledgement must be made to the contributors and to the data centre when these data are used within a publication.
+# Data_Set_DOI : 10.15138/33bv-s284
+# Data_Set_Citation_Format : 
+#
+# GLOBAL ATTRIBUTES
+#
+# site_gaw_id : CPT
+# site_gaw_type : GAW Global
+# site_name : Cape Point
+# site_country/territory : South Africa
+# site_wmo_region : REGION I (Africa)
+# site_address1 : South African Weather Servicec/o CSIR (Environmentek)P.O. Box 320Stellenbosch 7599South Africa
+# site_address2 : 
+# site_address3 : 
+# site_latitude : -34.3534812927
+# site_longitude : 18.4896831512
+# site_elevation : 230
+# site_elevation_unit : m
+# site_lst2utc : UTC+02:00
+# site_climate_zone : Csb
+# site_climate_zone:comment : Warm temperate climate with dry and warm summer
+# dataset_creation_date : 2022-08-15
+# dataset_parameter : co
+# dataset_parameter_large_class : Reactive Gas
+# dataset_parameter_small_class : 
+# dataset_parameter_name_1 : CO
+# dataset_parameter_name_2 : carbon monoxide
+# dataset_parameter_name_3 : 
+# dataset_parameter_name_4 : 
+# dataset_parameter_name_5 : 
+# dataset_project : surface-flask
+# dataset_platform : fixed station
+# dataset_selection : All event data
+# dataset_selection_tag : event
+# dataset_time_zone : UTC
+# dataset_start_date : 2010-02-11T08:53:00Z
+# dataset_end_date : 2021-12-23T09:20:00Z
+# dataset_statistic_code : 1
+# dataset_statistic : contributor
+# dataset_description : Atmospheric Carbon Monoxide Dry Air Mole Fractions from  the NOAA GML Carbon Cycle Cooperative Global Air Sampling  Network, 1988-2021  Reference scale:  WMO CO_X2014A
+# dataset_description : 
+# dataset_description : These data are provided by NOAA. Principal investigators include Gabrielle Petron (NOAA). Key partners include Casper Labuschagne (SAWS) AND South African Weather Service (SAWS).
+# dataset_description : 
+# dataset_description : Please cite the product's citation when using data from this dataset : G. Petron, A.M. Crotwell, M.J. Crotwell, E. Dlugokencky,  M. Madronich, E. Moglia, D. Neff, K. Thoning, S. Wolter, J.W. Mund (2022),  Atmospheric Carbon Monoxide Dry Air Mole Fractions  from the NOAA GML Carbon Cycle Cooperative Global Air Sampling Network,  1988-2021, Version: 2022-07-28, https://doi.org/10.15138/33bv-s284
+# dataset_aim_of_observation_code : 1
+# dataset_aim_of_observation : Background observation
+# dataset_buffer_code : 3001
+# dataset_buffer : ccgg
+# dataset_buffer:comment : NOAA Carbon Cycle Greenhouse Gases
+# dataset_footnote_code : 9999
+# dataset_footnote : default
+# dataset_footnote:comment : default
+# dataset_processing : 
+# dataset_hr_mean_processing : 
+# dataset_da_mean_processing : 
+# dataset_mo_mean_processing : Monthly means are produced for each site by first averaging all valid measurement results in the event file with a unique sample date and time.  Values are then extracted at weekly intervals from a smooth curve (Thoning et al., 1989) fitted to the averaged data and these weekly values are averaged for each month to give the monthly means recorded in the files.  Flagged data are excluded from the curve fitting process.  Some sites are excluded from the monthly mean directory because sparse data or a short record does not allow a reasonable curve fit.  Also, if there are 3 or more consecutive months without data, monthly means are not calculated for these months.
+# dataset_transition_flag : 0
+# dataset_transition_comment : Dataset was made from entire historical data provided from contributor from 2018 new WDCGG website open onward
+# dataset_reference_total_listed : 3
+# dataset_reference_1_name : G. Petron, A.M. Crotwell, M.J. Crotwell, E. Dlugokencky,  M. Madronich, E. Moglia, D. Neff, K. Thoning, S. Wolter, J.W. Mund (2022),  Atmospheric Carbon Monoxide Dry Air Mole Fractions  from the NOAA GML Carbon Cycle Cooperative Global Air Sampling Network,  1988-2021, Version: 2022-07-28, https://doi.org/10.15138/33bv-s284
+# dataset_reference_2_name : Novelli, P.C., J.E. Elkins, and L.P. Steele, The development and evaluation of a gravimetric reference scale for measurements of atmospheric carbon monoxide, J. Geophys. Res., 96, 13,109-13,121, 991.
+# dataset_reference_3_name : Novelli, P.C., K.A. Masarie, P.M. Lang, B.D. Hall, R.C. Myers, and J.W. Elkins, Re-analysis of tropospheric CO trends: Effects of the 1997-1998 wild fires, J. Geophys. Res., 108,  D15
+# contributor_organization_code : 2
+# contributor_acronym : NOAA
+# contributor_name : Global Monitoring Laboratory, NOAA
+# contributor_address1 : NOAA/ESRL
+# contributor_address2 : R/GML1
+# contributor_address3 : 325 Broadway Boulder, CO 80305-3328
+# contributor_country/territory : United States of America
+# contributor_url : https://gml.noaa.gov/
+# contact_total_listed : 1
+# contact_1_name : Gabrielle Petron
+# contact_1_address1 : NOAA GML
+# contact_1_address2 : 325 Broadway R/GML-1
+# contact_1_address3 : Boulder, CO 80305-3328
+# contact_1_country/territory : United States of America
+# contact_1_organization : Global Monitoring Laboratory, NOAA
+# contact_1_organization_acronym : NOAA
+# contact_1_organization_url : https://gml.noaa.gov/
+# contact_1_email : Gabrielle.Petron@noaa.gov
+# contact_1_tel : (720) 295-0145
+# contact_1_fax : 
+# collaborator_total_listed : 1
+# collaborator_1_organization_code : 66
+# collaborator_1_acronym : SAWS
+# collaborator_1_name : South African Weather Service
+# collaborator_1_address1 : South African Weather Service (Research Division)
+# collaborator_1_address2 : SAWS, c/o CSIR (Environmentek),
+# collaborator_1_address3 : P.O. Box 320,Stellenbosch 7599
+# collaborator_1_country/territory : South Africa
+# collaborator_1_url : http://www.weathersa.co.za/
+# collaborator_1_person_total_listed : 1
+# collaborator_1_person_1_name : Casper Labuschagne
+# collaborator_1_person_1_address1 : SA Weather Service
+# collaborator_1_person_1_address2 : c/o CSIR (Environmentek)
+# collaborator_1_person_1_address3 : P.O. Box 320,Stellenbosch 7599, South Africa
+# collaborator_1_person_1_country/territory : South Africa
+# collaborator_1_person_1_email : Casper.labuschagne@weathersa.co.za
+# collaborator_1_person_1_tel : 
+# collaborator_1_person_1_fax : 
+# ORG_QCflag_description : This is the NOAA 3-character quality control flag.  Column 1 is the REJECTION flag. An alphanumeric other than a period (.) in the FIRST column indicates a sample with obvious problems during collection or analysis. This measurement should not be interpreted. Column 2 is the SELECTION flag. An alphanumeric other than a period (.) in the SECOND column indicates a sample that is likely valid but does not meet selection criteria determined by the goals of a particular investigation. For example, it might not have been obtained during 'background' conditions.  Column 3 is the INFORMATION flag. An alphanumeric other than a period (.) in the THIRD column provides additional information about the collection or analysis of the sample. A P in the 3rd column of the QC flag indicates the measurement result is preliminary and has not yet been carefully examined by the PI.  The P flag is removed once the quality of the measurement has been determined.
+# intake_height_total_listed : See data part
+# instrument_total_listed : 3
+# instrument_1 : Unknown
+# instrument_1_measurement_method_type_code : 3
+# instrument_1_measurement_method_name : Gas chromatography (RGD)
+# instrument_1_start_date : 2010-02-22T09:01:00Z
+# instrument_1_end_date : 2010-07-01T06:35:00Z
+# instrument_2 : Unknown
+# instrument_2_measurement_method_type_code : 19
+# instrument_2_measurement_method_name : VURF
+# instrument_2_start_date : 2010-02-11T08:53:00Z
+# instrument_2_end_date : 2019-06-06T09:12:00Z
+# instrument_3 : Unknown
+# instrument_3_measurement_method_type_code : 26
+# instrument_3_measurement_method_name : TILDAS
+# instrument_3_start_date : 2019-06-10T11:14:00Z
+# instrument_3_end_date : 2021-12-23T09:20:00Z
+# scale_total_listed : 1
+# scale_1_code : 8
+# scale_1_name : WMO CO X2014A
+# scale_1_start_date : 2010-02-11T08:53:00Z
+# scale_1_end_date : 2021-12-23T09:20:00Z
+# observation_status_code : 1
+# observation_status : Operational/Reporting
+# measurement_calibration : 
+# sampling_frequency_code : 2
+# sampling_frequency : weekly
+#
+# VARIABLE ATTRIBUTES
+#
+# site_gaw_id:long_name : unique_station/mobile_identifiers.
+# site_gaw_id:comment : 3-letter site identification code as defined by GAWSIS for stationary platforms
+# time_components:_FillValue : -999 or -9
+# time_components:long_name : integer_components_of_UTC_date/time
+# time_components:order : year, month, day, hour, minute, second
+# time_components:comment : Air sample collection time (UTC) represented as a 6-element array [year, month, day, hour, minute, second]. Calendar time components as integers.
+# value:_FillValue : -999.999
+# value:units : ppb
+# value:long_name : measured_mole_fraction_of_trace_gas_in_dry_air
+# value:comment : Reported mole fraction, isotope ratio or radioactivity. Units depend on trace gas species.
+# value_unc:_FillValue : -999.999
+# value_unc:units : ppb
+# value_unc:long_name : estimated_uncertainty_in_reported_value
+# value_unc:comment : Standard deviation of the reported mean value when nvalue is greater than 1. Units depend on trace gas species.
+# nvalue:_FillValue : -9
+# nvalue:long_name : number_of_measurements_contributing_to_reported_value
+# nvalue:comment : Number of individual measurements used to compute reported values.
+# latitude:_FillValue : -999.999999999
+# latitude:standard_name : latitude
+# latitude:long_name : sample_latitude_in_decimal_degrees
+# latitude:units : degrees_north
+# latitude:comment : Latitude of sampling location in decimal degrees (north: +; south: -)
+# longitude:_FillValue : -999.999999999
+# longitude:standard_name : longitude
+# longitude:long_name : sample_longitude_in_decimal_degrees
+# longitude:units : degrees_east
+# longitude:comment : Longitude of sampling location in decimal degrees (east: +; west: -)
+# altitude:_FillValue : -999.999
+# altitude:standard_name : altitude
+# altitude:long_name : sample_altitude_in_meters_above_sea_level
+# altitude:units : m
+# altitude:comment : Altitude (elevation + intake height) of air sample collection. Units are meters above sea level (masl).
+# elevation:_FillValue : -999.999
+# elevation:standard_name : elevation
+# elevation:long_name : surface_elevation_in_meters_above_sea_level
+# elevation:units : m
+# elevation:comment : Station height (m) above sea level
+# intake_height:_FillValue : -999.999
+# intake_height:long_name : sample_intake_height_in_meters_above_ground_level
+# intake_height:units : m
+# intake_height:comment : Sampling height (depth) of air (seawater) above ground (below sea level) (height: +; depth: -) (m)
+# flask_no:_FillValue : -999.999
+# flask_no:long_name : sample_flask_no
+# flask_no:comment : Identification code (or number) of flask used for observation
+# ORG_QCflag:_FillValue : -999.999
+# ORG_QCflag:long_name : original_quality_control_flag
+# ORG_QCflag:comment : Details of original data quality control flags should be specified by contributors in metadata.
+# QCflag:_FillValue : -9
+# QCflag:long_name : quality_control_flag
+# QCflag:comment : 1 Valid (background) data considered "background"
+# QCflag:comment : 2 Valid data considered valid other than "background," or all valid data without categorization
+# QCflag:comment : 3 Invalid data considered unfit for use (questionable/erroneous/absent data)
+# QCflag:comment : Details of correspondence between original data quality control flags and WDCGG data flags should be specified by contributors in metadata.
+# instrument:_FillValue : -9
+# instrument:long_name : instrument_ID_to_detect_atmospheric_parameter
+# instrument:comment : A numeric field that identifies the instrument.
+# measurement_method:_FillValue : -9
+# measurement_method:long_name : measurement_method_history
+# measurement_method:comment : A numeric field that identifies the measurement method.
+# scale:_FillValue : -9
+# scale:long_name : calibration_scale_history
+# scale:comment : A numeric field that identifies the calibration scale. Measurements are relative to reported calibration scale.
+#
+# VARIABLE ORDER
+#
+site_gaw_id year month day hour minute second year month day hour minute second value value_unc nvalue latitude longitude altitude elevation intake_height flask_no ORG_QCflag QCflag instrument measurement_method scale
+CPT 2010 02 11 08 53 00 -999 -9 -9 -9 -9 -9 40.52 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 150-99 ... 1 2 19 8
+CPT 2010 02 11 08 53 00 -999 -9 -9 -9 -9 -9 40.27 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 2332-99 ... 1 2 19 8
+CPT 2010 02 18 08 57 00 -999 -9 -9 -9 -9 -9 44.34 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 4712-99 ... 1 2 19 8
+CPT 2010 02 18 08 57 00 -999 -9 -9 -9 -9 -9 43.35 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 973-99 ... 1 2 19 8
+CPT 2010 02 22 09 01 00 -999 -9 -9 -9 -9 -9 44.54 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 1302-99 ... 1 1 3 8
+CPT 2010 02 22 09 01 00 -999 -9 -9 -9 -9 -9 44.3 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 4765-99 ... 1 1 3 8
+CPT 2010 02 25 10 11 00 -999 -9 -9 -9 -9 -9 43.28 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 1-99 ... 1 1 3 8
+CPT 2010 02 25 10 11 00 -999 -9 -9 -9 -9 -9 43.02 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 1061-99 ... 1 1 3 8
+CPT 2010 03 10 09 50 00 -999 -9 -9 -9 -9 -9 41.3 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 4314-99 ... 1 2 19 8
+CPT 2010 03 15 10 47 00 -999 -9 -9 -9 -9 -9 47.24 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 4190-99 ... 1 2 19 8
+CPT 2010 03 15 10 47 00 -999 -9 -9 -9 -9 -9 47.04 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 4553-99 ... 1 2 19 8
+CPT 2010 03 18 10 06 00 -999 -9 -9 -9 -9 -9 43.14 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 1467-99 ... 1 2 19 8
+CPT 2010 03 18 10 06 00 -999 -9 -9 -9 -9 -9 42.94 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 409-99 ... 1 2 19 8
+CPT 2010 03 29 10 15 00 -999 -9 -9 -9 -9 -9 45.38 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 1321-99 ... 1 2 19 8
+CPT 2010 03 29 10 15 00 -999 -9 -9 -9 -9 -9 45.12 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 3893-99 ... 1 2 19 8
+CPT 2010 04 01 08 17 00 -999 -9 -9 -9 -9 -9 52.39 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 1410-99 ... 1 2 19 8
+CPT 2010 04 01 08 17 00 -999 -9 -9 -9 -9 -9 52.56 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 264-99 ... 1 2 19 8
+CPT 2010 04 06 09 05 00 -999 -9 -9 -9 -9 -9 48.28 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 2393-99 ... 1 2 19 8
+CPT 2010 04 06 09 05 00 -999 -9 -9 -9 -9 -9 50.01 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 4112-99 ... 1 2 19 8
+CPT 2010 04 15 10 59 00 -999 -9 -9 -9 -9 -9 43.94 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 1296-99 ... 1 2 19 8
+CPT 2010 04 15 10 59 00 -999 -9 -9 -9 -9 -9 44.01 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 1592-99 ... 1 2 19 8
+CPT 2010 04 28 10 02 00 -999 -9 -9 -9 -9 -9 46.42 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 2084-99 ... 1 2 19 8
+CPT 2010 04 28 10 02 00 -999 -9 -9 -9 -9 -9 46.48 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 4613-99 ... 1 2 19 8
+CPT 2010 05 07 08 30 00 -999 -9 -9 -9 -9 -9 46.34 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 183-99 ... 1 2 19 8
+CPT 2010 05 07 08 30 00 -999 -9 -9 -9 -9 -9 46.13 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 735-99 ... 1 2 19 8
+CPT 2010 05 24 11 13 00 -999 -9 -9 -9 -9 -9 48.74 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 4051-99 ... 1 2 19 8
+CPT 2010 05 24 11 13 00 -999 -9 -9 -9 -9 -9 49.09 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 807-99 ... 1 2 19 8
+CPT 2010 05 31 08 14 00 -999 -9 -9 -9 -9 -9 55.01 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 1699-99 ... 1 2 19 8
+CPT 2010 05 31 08 14 00 -999 -9 -9 -9 -9 -9 55.81 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 4331-99 ... 1 2 19 8
+CPT 2010 06 10 09 22 00 -999 -9 -9 -9 -9 -9 55.41 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 2402-99 ... 1 1 3 8
+CPT 2010 06 10 09 22 00 -999 -9 -9 -9 -9 -9 55.49 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 4967-99 ... 1 1 3 8
+CPT 2010 06 14 09 47 00 -999 -9 -9 -9 -9 -9 51.53 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 1113-99 ... 1 1 3 8
+CPT 2010 06 14 09 47 00 -999 -9 -9 -9 -9 -9 51.2 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 2865-99 ... 1 1 3 8
+CPT 2010 06 25 09 06 00 -999 -9 -9 -9 -9 -9 63.73 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 3019-99 ... 1 1 3 8
+CPT 2010 06 25 09 06 00 -999 -9 -9 -9 -9 -9 63.71 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 3968-99 ... 1 1 3 8
+CPT 2010 07 01 06 35 00 -999 -9 -9 -9 -9 -9 61.3 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 3833-99 ... 1 1 3 8
+CPT 2010 07 01 06 35 00 -999 -9 -9 -9 -9 -9 60.86 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 785-99 ... 1 1 3 8
+CPT 2010 07 06 07 40 00 -999 -9 -9 -9 -9 -9 55.22 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 1247-99 ... 1 2 19 8
+CPT 2010 07 06 07 40 00 -999 -9 -9 -9 -9 -9 55.13 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 923-99 ... 1 2 19 8
+CPT 2010 07 15 11 28 00 -999 -9 -9 -9 -9 -9 56.05 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 2789-99 ... 1 2 19 8
+CPT 2010 07 15 11 28 00 -999 -9 -9 -9 -9 -9 56.17 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 947-99 ... 1 2 19 8
+CPT 2010 07 29 08 50 00 -999 -9 -9 -9 -9 -9 60.69 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 1321-99 ... 1 2 19 8
+CPT 2010 07 29 08 50 00 -999 -9 -9 -9 -9 -9 59.94 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 2888-99 ... 1 2 19 8
+CPT 2010 08 10 08 52 00 -999 -9 -9 -9 -9 -9 66.75 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 4572-99 ... 1 2 19 8
+CPT 2010 08 10 08 52 00 -999 -9 -9 -9 -9 -9 66.23 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 5220-99 ... 1 2 19 8
+CPT 2010 08 16 09 12 00 -999 -9 -9 -9 -9 -9 64.61 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 409-99 ... 1 2 19 8
+CPT 2010 08 16 09 12 00 -999 -9 -9 -9 -9 -9 65.91 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 4219-99 ... 1 2 19 8
+CPT 2010 08 23 08 38 00 -999 -9 -9 -9 -9 -9 64.49 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 1760-99 ... 1 2 19 8
+CPT 2010 08 23 08 38 00 -999 -9 -9 -9 -9 -9 65.05 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 3644-99 ... 1 2 19 8
+CPT 2010 09 02 10 57 00 -999 -9 -9 -9 -9 -9 86.82 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 4190-99 P.. 3 2 19 8
+CPT 2010 09 02 10 57 00 -999 -9 -9 -9 -9 -9 81.49 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 743-99 P.. 3 2 19 8
+CPT 2010 09 06 08 35 00 -999 -9 -9 -9 -9 -9 63.05 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 1407-99 ... 1 2 19 8
+CPT 2010 09 06 08 35 00 -999 -9 -9 -9 -9 -9 62.78 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 1467-99 ... 1 2 19 8
+CPT 2010 09 16 08 54 00 -999 -9 -9 -9 -9 -9 64.26 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 1246-99 ... 1 2 19 8
+CPT 2010 09 16 08 54 00 -999 -9 -9 -9 -9 -9 63.96 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 4616-99 ... 1 2 19 8
+CPT 2010 09 23 08 39 00 -999 -9 -9 -9 -9 -9 79.08 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 1069-99 .X. 2 2 19 8
+CPT 2010 09 23 08 39 00 -999 -9 -9 -9 -9 -9 77.3 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 4740-99 .X. 2 2 19 8
+CPT 2010 09 30 09 10 00 -999 -9 -9 -9 -9 -9 72.54 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 3744-99 ... 1 2 19 8
+CPT 2010 09 30 09 10 00 -999 -9 -9 -9 -9 -9 71.93 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 3811-99 ... 1 2 19 8
+CPT 2010 10 04 09 01 00 -999 -9 -9 -9 -9 -9 73.64 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 2331-99 ... 1 2 19 8
+CPT 2010 10 04 09 01 00 -999 -9 -9 -9 -9 -9 73.86 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 3700-99 ... 1 2 19 8
+CPT 2010 10 18 11 04 00 -999 -9 -9 -9 -9 -9 74.17 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 2283-99 ... 1 2 19 8
+CPT 2010 10 18 11 04 00 -999 -9 -9 -9 -9 -9 73.81 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 333-99 ... 1 2 19 8
+CPT 2010 10 25 08 30 00 -999 -9 -9 -9 -9 -9 68.58 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 2005-99 ... 1 2 19 8
+CPT 2010 10 25 08 30 00 -999 -9 -9 -9 -9 -9 68.22 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 2835-99 ... 1 2 19 8
+CPT 2010 11 01 08 32 00 -999 -9 -9 -9 -9 -9 73.81 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 2804-99 ... 1 2 19 8
+CPT 2010 11 01 08 32 00 -999 -9 -9 -9 -9 -9 74.88 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 3616-99 ... 1 2 19 8
+CPT 2010 11 08 09 32 00 -999 -9 -9 -9 -9 -9 78.67 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 239-99 .X. 2 2 19 8
+CPT 2010 11 08 09 32 00 -999 -9 -9 -9 -9 -9 78.44 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 3036-99 .X. 2 2 19 8
+CPT 2010 11 15 09 00 00 -999 -9 -9 -9 -9 -9 71.91 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 1699-99 ... 1 2 19 8
+CPT 2010 11 15 09 00 00 -999 -9 -9 -9 -9 -9 71.83 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 3860-99 ... 1 2 19 8
+CPT 2010 11 22 08 59 00 -999 -9 -9 -9 -9 -9 67.11 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 4051-99 ... 1 2 19 8
+CPT 2010 11 22 08 59 00 -999 -9 -9 -9 -9 -9 67.04 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 733-99 ... 1 2 19 8
+CPT 2010 11 30 09 01 00 -999 -9 -9 -9 -9 -9 63.62 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 1855-99 ... 1 2 19 8
+CPT 2010 11 30 09 01 00 -999 -9 -9 -9 -9 -9 63.53 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 2679-99 ... 1 2 19 8
+CPT 2010 12 02 08 59 00 -999 -9 -9 -9 -9 -9 60.67 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 1472-99 ... 1 2 19 8
+CPT 2010 12 02 08 59 00 -999 -9 -9 -9 -9 -9 60.71 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 1592-99 ... 1 2 19 8
+CPT 2010 12 06 08 59 00 -999 -9 -9 -9 -9 -9 59.88 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 2830-99 ... 1 2 19 8
+CPT 2010 12 06 08 59 00 -999 -9 -9 -9 -9 -9 59.26 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 4326-99 ... 1 2 19 8
+CPT 2010 12 13 09 37 00 -999 -9 -9 -9 -9 -9 56.9 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 2300-99 ... 1 2 19 8
+CPT 2010 12 13 09 37 00 -999 -9 -9 -9 -9 -9 56.33 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 5113-99 ... 1 2 19 8
+CPT 2010 12 27 05 05 00 -999 -9 -9 -9 -9 -9 50.26 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 2764-99 ... 1 2 19 8
+CPT 2010 12 27 05 05 00 -999 -9 -9 -9 -9 -9 50.59 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 73-99 ... 1 2 19 8
+CPT 2011 01 10 09 00 00 -999 -9 -9 -9 -9 -9 47.59 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 3254-99 ... 1 2 19 8
+CPT 2011 01 10 09 00 00 -999 -9 -9 -9 -9 -9 47.58 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 460-99 ... 1 2 19 8
+CPT 2011 01 17 08 56 00 -999 -9 -9 -9 -9 -9 46.79 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 2691-99 ... 1 2 19 8
+CPT 2011 01 17 09 31 00 -999 -9 -9 -9 -9 -9 46.5 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 4104-99 ... 1 2 19 8
+CPT 2011 01 17 09 31 00 -999 -9 -9 -9 -9 -9 45.9 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 4407-99 ... 1 2 19 8
+CPT 2011 01 24 09 29 00 -999 -9 -9 -9 -9 -9 46.31 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 3766-99 ... 1 2 19 8
+CPT 2011 01 24 09 29 00 -999 -9 -9 -9 -9 -9 46.34 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 4731-99 ... 1 2 19 8
+CPT 2011 01 31 08 30 00 -999 -9 -9 -9 -9 -9 49.35 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 1237-99 ... 1 2 19 8
+CPT 2011 01 31 08 30 00 -999 -9 -9 -9 -9 -9 48.97 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 2887-99 ... 1 2 19 8
+CPT 2011 02 14 09 02 00 -999 -9 -9 -9 -9 -9 59.92 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 1464-99 .X. 2 2 19 8
+CPT 2011 02 14 09 02 00 -999 -9 -9 -9 -9 -9 60.21 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 4322-99 .X. 2 2 19 8
+CPT 2011 02 21 08 30 00 -999 -9 -9 -9 -9 -9 42.26 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 2798-99 ... 1 2 19 8
+CPT 2011 02 21 08 30 00 -999 -9 -9 -9 -9 -9 42.1 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 3895-99 ... 1 2 19 8
+CPT 2011 02 28 08 32 00 -999 -9 -9 -9 -9 -9 48.52 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 1101-99 ... 1 2 19 8
+CPT 2011 02 28 08 32 00 -999 -9 -9 -9 -9 -9 47.63 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 2526-99 ... 1 2 19 8
+CPT 2011 03 14 08 30 00 -999 -9 -9 -9 -9 -9 42.75 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 1765-99 ... 1 2 19 8
+CPT 2011 03 14 08 30 00 -999 -9 -9 -9 -9 -9 43.06 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 2879-99 ... 1 2 19 8
+CPT 2011 03 17 08 35 00 -999 -9 -9 -9 -9 -9 46.42 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 2173-99 ... 1 2 19 8
+CPT 2011 03 17 08 35 00 -999 -9 -9 -9 -9 -9 46.15 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 2562-99 ... 1 2 19 8
+CPT 2011 03 24 12 00 00 -999 -9 -9 -9 -9 -9 49.41 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 1082-99 ... 1 2 19 8
+CPT 2011 03 24 12 00 00 -999 -9 -9 -9 -9 -9 50.4 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 3042-99 ... 1 2 19 8
+CPT 2011 04 26 08 43 00 -999 -9 -9 -9 -9 -9 44.39 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 1841-99 ... 1 2 19 8
+CPT 2011 04 26 08 43 00 -999 -9 -9 -9 -9 -9 44.59 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 4377-99 ... 1 2 19 8
+CPT 2011 04 26 08 53 00 -999 -9 -9 -9 -9 -9 44.34 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 2783-99 ... 1 2 19 8
+CPT 2011 04 26 08 53 00 -999 -9 -9 -9 -9 -9 44.05 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 4183-99 ... 1 2 19 8
+CPT 2011 04 29 09 00 00 -999 -9 -9 -9 -9 -9 63.78 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 2974-99 .X. 2 2 19 8
+CPT 2011 04 29 09 00 00 -999 -9 -9 -9 -9 -9 63.61 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 3227-99 .X. 2 2 19 8
+CPT 2011 04 29 11 32 00 -999 -9 -9 -9 -9 -9 59.17 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 1315-99 .X. 2 2 19 8
+CPT 2011 04 29 11 32 00 -999 -9 -9 -9 -9 -9 56.91 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 2459-99 .X. 2 2 19 8
+CPT 2011 05 03 12 34 56 -999 -9 -9 -9 -9 -9 72.39 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 772-99 .X. 2 2 19 8
+CPT 2011 05 03 12 34 56 -999 -9 -9 -9 -9 -9 72.92 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 846-99 .X. 2 2 19 8
+CPT 2011 05 09 10 57 00 -999 -9 -9 -9 -9 -9 140.46 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 1859-99 P.. 3 2 19 8
+CPT 2011 05 09 10 57 00 -999 -9 -9 -9 -9 -9 145.79 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 317-99 P.. 3 2 19 8
+CPT 2011 05 19 08 33 00 -999 -9 -9 -9 -9 -9 48.96 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 2100-99 A.. 3 2 19 8
+CPT 2011 05 19 08 33 00 -999 -9 -9 -9 -9 -9 48.66 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 4566-99 A.. 3 2 19 8
+CPT 2011 05 23 09 31 00 -999 -9 -9 -9 -9 -9 48.6 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 320-99 A.. 3 2 19 8
+CPT 2011 05 23 09 31 00 -999 -9 -9 -9 -9 -9 48.34 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 4265-99 A.. 3 2 19 8
+CPT 2011 06 09 09 17 00 -999 -9 -9 -9 -9 -9 56.65 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 1136-99 ... 1 2 19 8
+CPT 2011 06 09 09 17 00 -999 -9 -9 -9 -9 -9 56.66 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 663-99 ... 1 2 19 8
+CPT 2011 06 16 08 05 00 -999 -9 -9 -9 -9 -9 50.03 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 1699-99 ... 1 2 19 8
+CPT 2011 06 16 08 05 00 -999 -9 -9 -9 -9 -9 50.75 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 35-99 ... 1 2 19 8
+CPT 2011 06 23 09 28 00 -999 -9 -9 -9 -9 -9 51.96 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 2757-99 ... 1 2 19 8
+CPT 2011 06 23 09 28 00 -999 -9 -9 -9 -9 -9 51.13 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 3670-99 ... 1 2 19 8
+CPT 2011 06 27 09 01 00 -999 -9 -9 -9 -9 -9 54.6 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 1026-99 ... 1 2 19 8
+CPT 2011 06 27 09 01 00 -999 -9 -9 -9 -9 -9 54.03 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 3930-99 ... 1 2 19 8
+CPT 2011 07 04 09 00 00 -999 -9 -9 -9 -9 -9 54.13 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 1452-99 ... 1 2 19 8
+CPT 2011 07 04 09 00 00 -999 -9 -9 -9 -9 -9 54.6 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 2777-99 ... 1 2 19 8
+CPT 2011 07 22 08 17 00 -999 -9 -9 -9 -9 -9 54.77 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 2585-99 ... 1 2 19 8
+CPT 2011 07 22 08 17 00 -999 -9 -9 -9 -9 -9 55.32 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 567-99 ... 1 2 19 8
+CPT 2011 07 28 09 00 00 -999 -9 -9 -9 -9 -9 65.06 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 1196-99 N.. 3 2 19 8
+CPT 2011 07 28 09 00 00 -999 -9 -9 -9 -9 -9 64.84 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 4751-99 N.. 3 2 19 8
+CPT 2011 08 01 09 33 00 -999 -9 -9 -9 -9 -9 70.83 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 2503-99 .X. 2 2 19 8
+CPT 2011 08 01 09 33 00 -999 -9 -9 -9 -9 -9 70.62 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 4917-99 .X. 2 2 19 8
+CPT 2011 08 08 08 35 00 -999 -9 -9 -9 -9 -9 68.43 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 1450-99 N.. 3 2 19 8
+CPT 2011 08 08 08 35 00 -999 -9 -9 -9 -9 -9 68.47 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 4511-99 N.. 3 2 19 8
+CPT 2011 08 25 09 00 00 -999 -9 -9 -9 -9 -9 63.39 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 1994-99 ... 1 2 19 8
+CPT 2011 08 25 09 00 00 -999 -9 -9 -9 -9 -9 64.24 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 5267-99 ... 1 2 19 8
+CPT 2011 09 03 09 01 00 -999 -9 -9 -9 -9 -9 58.85 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 2394-99 ... 1 2 19 8
+CPT 2011 09 03 09 01 00 -999 -9 -9 -9 -9 -9 59.81 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 2821-99 ... 1 2 19 8
+CPT 2011 09 15 08 30 00 -999 -9 -9 -9 -9 -9 66.91 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 3087-99 ... 1 2 19 8
+CPT 2011 09 15 08 30 00 -999 -9 -9 -9 -9 -9 66.69 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 3096-99 ... 1 2 19 8
+CPT 2011 09 19 09 10 00 -999 -9 -9 -9 -9 -9 63.0 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 3732-99 ... 1 2 19 8
+CPT 2011 09 19 09 10 00 -999 -9 -9 -9 -9 -9 62.82 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 424-99 ... 1 2 19 8
+CPT 2011 09 26 09 47 00 -999 -9 -9 -9 -9 -9 69.63 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 1889-99 ... 1 2 19 8
+CPT 2011 10 10 10 04 00 -999 -9 -9 -9 -9 -9 75.8 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 2504-99 .X. 2 2 19 8
+CPT 2011 10 10 10 04 00 -999 -9 -9 -9 -9 -9 75.59 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 3128-99 .X. 2 2 19 8
+CPT 2011 10 20 08 31 00 -999 -9 -9 -9 -9 -9 64.61 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 2395-99 ... 1 2 19 8
+CPT 2011 10 20 08 31 00 -999 -9 -9 -9 -9 -9 64.36 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 4837-99 ... 1 2 19 8
+CPT 2011 10 24 09 00 00 -999 -9 -9 -9 -9 -9 62.0 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 1495-99 ... 1 2 19 8
+CPT 2011 10 24 09 00 00 -999 -9 -9 -9 -9 -9 62.34 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 1751-99 ... 1 2 19 8
+CPT 2011 10 31 09 13 00 -999 -9 -9 -9 -9 -9 63.3 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 1318-99 ... 1 2 19 8
+CPT 2011 10 31 09 13 00 -999 -9 -9 -9 -9 -9 62.58 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 1486-99 ... 1 2 19 8
+CPT 2011 11 10 10 37 00 -999 -9 -9 -9 -9 -9 58.03 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 1017-99 ... 1 2 19 8
+CPT 2011 11 10 10 37 00 -999 -9 -9 -9 -9 -9 58.14 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 1145-99 ... 1 2 19 8
+CPT 2011 11 21 12 01 00 -999 -9 -9 -9 -9 -9 55.31 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 148-99 ... 1 2 19 8
+CPT 2011 11 21 12 01 00 -999 -9 -9 -9 -9 -9 55.05 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 1591-99 ... 1 2 19 8
+CPT 2011 11 28 10 11 00 -999 -9 -9 -9 -9 -9 56.83 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 253-99 ... 1 2 19 8
+CPT 2011 11 28 10 11 00 -999 -9 -9 -9 -9 -9 57.39 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 897-99 ... 1 2 19 8
+CPT 2011 12 08 10 45 00 -999 -9 -9 -9 -9 -9 50.05 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 2921-99 ... 1 2 19 8
+CPT 2011 12 08 10 45 00 -999 -9 -9 -9 -9 -9 50.28 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 3844-99 ... 1 2 19 8
+CPT 2011 12 15 10 03 00 -999 -9 -9 -9 -9 -9 50.62 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 2824-99 ... 1 2 19 8
+CPT 2011 12 15 10 03 00 -999 -9 -9 -9 -9 -9 50.08 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 3785-99 ... 1 2 19 8
+CPT 2011 12 19 09 11 00 -999 -9 -9 -9 -9 -9 64.71 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 1837-99 -.. 3 2 19 8
+CPT 2011 12 19 09 11 00 -999 -9 -9 -9 -9 -9 68.74 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 704-99 +.. 3 2 19 8
+CPT 2011 12 29 06 45 00 -999 -9 -9 -9 -9 -9 49.74 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 490-99 ... 1 2 19 8
+CPT 2011 12 29 06 45 00 -999 -9 -9 -9 -9 -9 49.33 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 5069-99 ... 1 2 19 8
+CPT 2012 01 12 08 37 00 -999 -9 -9 -9 -9 -9 57.68 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 4046-99 .X. 2 2 19 8
+CPT 2012 01 12 08 37 00 -999 -9 -9 -9 -9 -9 56.85 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 4237-99 .X. 2 2 19 8
+CPT 2012 01 23 10 31 00 -999 -9 -9 -9 -9 -9 45.32 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 2272-99 ... 1 2 19 8
+CPT 2012 01 23 10 31 00 -999 -9 -9 -9 -9 -9 44.99 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 4010-99 ... 1 2 19 8
+CPT 2012 02 02 10 00 00 -999 -9 -9 -9 -9 -9 44.12 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 3116-99 ... 1 2 19 8
+CPT 2012 02 02 10 00 00 -999 -9 -9 -9 -9 -9 44.32 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 460-99 ... 1 2 19 8
+CPT 2012 02 20 11 50 00 -999 -9 -9 -9 -9 -9 42.28 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 2139-99 ... 1 2 19 8
+CPT 2012 02 20 11 50 00 -999 -9 -9 -9 -9 -9 41.71 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 4619-99 ... 1 2 19 8
+CPT 2012 03 01 11 27 00 -999 -9 -9 -9 -9 -9 42.67 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 4430-99 ... 1 2 19 8
+CPT 2012 03 01 11 27 00 -999 -9 -9 -9 -9 -9 42.26 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 4860-99 ... 1 2 19 8
+CPT 2012 03 05 09 51 00 -999 -9 -9 -9 -9 -9 42.98 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 1003-99 ... 1 2 19 8
+CPT 2012 03 05 09 51 00 -999 -9 -9 -9 -9 -9 42.01 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 516-99 ... 1 2 19 8
+CPT 2012 03 15 09 30 00 -999 -9 -9 -9 -9 -9 56.33 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 3452-99 .X. 2 2 19 8
+CPT 2012 03 15 09 30 00 -999 -9 -9 -9 -9 -9 58.69 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 4556-99 .X. 2 2 19 8
+CPT 2012 03 27 11 17 00 -999 -9 -9 -9 -9 -9 44.25 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 3408-99 ... 1 2 19 8
+CPT 2012 03 27 11 17 00 -999 -9 -9 -9 -9 -9 45.11 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 5176-99 ... 1 2 19 8
+CPT 2012 04 19 15 02 00 -999 -9 -9 -9 -9 -9 49.57 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 1153-99 ... 1 2 19 8
+CPT 2012 04 19 15 02 00 -999 -9 -9 -9 -9 -9 50.53 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 3567-99 ... 1 2 19 8
+CPT 2012 04 23 10 35 00 -999 -9 -9 -9 -9 -9 46.2 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 1245-99 ... 1 2 19 8
+CPT 2012 04 23 10 35 00 -999 -9 -9 -9 -9 -9 47.67 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 2691-99 ... 1 2 19 8
+CPT 2012 05 14 10 15 00 -999 -9 -9 -9 -9 -9 48.44 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 1086-99 ... 1 2 19 8
+CPT 2012 05 14 10 15 00 -999 -9 -9 -9 -9 -9 49.52 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 2721-99 ... 1 2 19 8
+CPT 2012 06 07 10 50 00 -999 -9 -9 -9 -9 -9 57.64 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 4739-99 ... 1 2 19 8
+CPT 2012 06 07 10 50 00 -999 -9 -9 -9 -9 -9 57.22 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 688-99 ... 1 2 19 8
+CPT 2012 06 25 09 29 00 -999 -9 -9 -9 -9 -9 57.66 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 409-99 ... 1 2 19 8
+CPT 2012 06 25 09 29 00 -999 -9 -9 -9 -9 -9 57.75 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 4672-99 ... 1 2 19 8
+CPT 2012 07 09 09 42 00 -999 -9 -9 -9 -9 -9 63.97 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 2590-99 ... 1 2 19 8
+CPT 2012 07 09 09 42 00 -999 -9 -9 -9 -9 -9 63.71 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 5172-99 ... 1 2 19 8
+CPT 2012 07 17 10 47 00 -999 -9 -9 -9 -9 -9 59.07 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 2829-99 ... 1 2 19 8
+CPT 2012 07 17 10 47 00 -999 -9 -9 -9 -9 -9 59.96 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 3310-99 ... 1 2 19 8
+CPT 2012 07 26 09 03 00 -999 -9 -9 -9 -9 -9 66.94 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 4707-99 ... 1 2 19 8
+CPT 2012 07 26 09 03 00 -999 -9 -9 -9 -9 -9 65.82 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 70-99 ... 1 2 19 8
+CPT 2012 07 31 08 00 00 -999 -9 -9 -9 -9 -9 57.87 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 4661-99 ... 1 2 19 8
+CPT 2012 07 31 08 00 00 -999 -9 -9 -9 -9 -9 57.88 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 576-99 ... 1 2 19 8
+CPT 2012 08 06 08 48 00 -999 -9 -9 -9 -9 -9 58.45 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 3448-99 ... 1 2 19 8
+CPT 2012 08 06 08 48 00 -999 -9 -9 -9 -9 -9 58.24 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 6510-66 ... 1 2 19 8
+CPT 2012 08 16 09 55 00 -999 -9 -9 -9 -9 -9 57.6 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 1935-99 ... 1 2 19 8
+CPT 2012 08 16 09 55 00 -999 -9 -9 -9 -9 -9 58.7 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 6422-66 ... 1 2 19 8
+CPT 2012 08 27 09 55 00 -999 -9 -9 -9 -9 -9 74.76 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 2951-99 -.. 3 2 19 8
+CPT 2012 08 27 09 55 00 -999 -9 -9 -9 -9 -9 79.45 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 2981-99 +.. 3 2 19 8
+CPT 2012 09 13 09 50 00 -999 -9 -9 -9 -9 -9 69.51 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 1008-99 ... 1 2 19 8
+CPT 2012 09 13 09 50 00 -999 -9 -9 -9 -9 -9 69.84 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 3162-99 ... 1 2 19 8
+CPT 2012 09 20 11 15 00 -999 -9 -9 -9 -9 -9 66.23 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 2798-99 ... 1 2 19 8
+CPT 2012 09 20 11 15 00 -999 -9 -9 -9 -9 -9 66.42 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 99-99 ..> 1 2 19 8
+CPT 2012 09 29 09 30 00 -999 -9 -9 -9 -9 -9 63.66 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 2773-99 ... 1 2 19 8
+CPT 2012 09 29 09 30 00 -999 -9 -9 -9 -9 -9 63.62 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 523-99 ... 1 2 19 8
+CPT 2012 10 01 09 29 00 -999 -9 -9 -9 -9 -9 72.14 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 1438-99 ... 1 2 19 8
+CPT 2012 10 01 09 29 00 -999 -9 -9 -9 -9 -9 72.01 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 6470-66 ... 1 2 19 8
+CPT 2012 10 08 09 28 00 -999 -9 -9 -9 -9 -9 62.61 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 3614-99 ... 1 2 19 8
+CPT 2012 10 08 09 28 00 -999 -9 -9 -9 -9 -9 63.0 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 5309-99 ... 1 2 19 8
+CPT 2012 10 15 09 15 00 -999 -9 -9 -9 -9 -9 62.15 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 1763-99 ... 1 2 19 8
+CPT 2012 10 15 09 15 00 -999 -9 -9 -9 -9 -9 62.22 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 4157-99 ... 1 2 19 8
+CPT 2012 11 01 10 35 00 -999 -9 -9 -9 -9 -9 66.54 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 3599-99 ... 1 2 19 8
+CPT 2012 11 01 10 35 00 -999 -9 -9 -9 -9 -9 65.68 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 5053-99 ... 1 2 19 8
+CPT 2012 11 05 09 15 00 -999 -9 -9 -9 -9 -9 66.2 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 484-99 ... 1 2 19 8
+CPT 2012 11 05 09 15 00 -999 -9 -9 -9 -9 -9 66.87 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 5168-99 ... 1 2 19 8
+CPT 2012 11 19 09 45 00 -999 -9 -9 -9 -9 -9 60.54 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 1073-99 ... 1 2 19 8
+CPT 2012 11 19 09 45 00 -999 -9 -9 -9 -9 -9 60.24 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 542-99 ... 1 2 19 8
+CPT 2012 11 29 09 15 00 -999 -9 -9 -9 -9 -9 58.41 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 1607-99 ... 1 2 19 8
+CPT 2012 11 29 09 15 00 -999 -9 -9 -9 -9 -9 56.17 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 4957-99 ... 1 2 19 8
+CPT 2012 12 10 09 23 00 -999 -9 -9 -9 -9 -9 54.83 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 2260-99 +.. 3 2 19 8
+CPT 2012 12 10 09 23 00 -999 -9 -9 -9 -9 -9 53.22 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 2275-99 -.. 3 2 19 8
+CPT 2012 12 20 06 40 00 -999 -9 -9 -9 -9 -9 52.15 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 2939-99 ... 1 2 19 8
+CPT 2012 12 20 06 40 00 -999 -9 -9 -9 -9 -9 52.53 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 3132-99 ... 1 2 19 8
+CPT 2013 01 10 09 40 00 -999 -9 -9 -9 -9 -9 46.43 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 2124-99 +.. 3 2 19 8
+CPT 2013 01 10 09 40 00 -999 -9 -9 -9 -9 -9 41.77 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 3519-99 -.. 3 2 19 8
+CPT 2013 01 24 09 20 00 -999 -9 -9 -9 -9 -9 52.46 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 3792-99 +.. 3 2 19 8
+CPT 2013 01 24 09 20 00 -999 -9 -9 -9 -9 -9 47.41 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 4106-99 -.. 3 2 19 8
+CPT 2013 01 31 10 02 00 -999 -9 -9 -9 -9 -9 45.69 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 191-99 ... 1 2 19 8
+CPT 2013 01 31 10 02 00 -999 -9 -9 -9 -9 -9 45.08 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 2825-99 ... 1 2 19 8
+CPT 2013 02 11 09 30 00 -999 -9 -9 -9 -9 -9 51.44 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 3400-99 +.. 3 2 19 8
+CPT 2013 02 11 09 30 00 -999 -9 -9 -9 -9 -9 46.92 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 4050-99 -.. 3 2 19 8
+CPT 2013 02 14 09 00 00 -999 -9 -9 -9 -9 -9 41.61 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 198-99 ... 1 2 19 8
+CPT 2013 02 14 09 00 00 -999 -9 -9 -9 -9 -9 41.66 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 486-99 ... 1 2 19 8
+CPT 2013 02 28 08 40 00 -999 -9 -9 -9 -9 -9 40.11 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 1548-99 ... 1 2 19 8
+CPT 2013 02 28 08 40 00 -999 -9 -9 -9 -9 -9 40.4 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 2174-99 ... 1 2 19 8
+CPT 2013 03 07 08 50 00 -999 -9 -9 -9 -9 -9 41.24 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 2685-99 ... 1 2 19 8
+CPT 2013 03 07 08 50 00 -999 -9 -9 -9 -9 -9 41.99 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 911-99 ... 1 2 19 8
+CPT 2013 03 13 09 40 00 -999 -9 -9 -9 -9 -9 45.63 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 162-99 ... 1 2 19 8
+CPT 2013 03 13 09 40 00 -999 -9 -9 -9 -9 -9 45.12 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 2103-99 ... 1 2 19 8
+CPT 2013 03 18 10 48 00 -999 -9 -9 -9 -9 -9 47.4 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 3086-99 ... 1 2 19 8
+CPT 2013 03 18 10 48 00 -999 -9 -9 -9 -9 -9 47.99 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 4407-99 ... 1 2 19 8
+CPT 2013 03 22 09 11 00 -999 -9 -9 -9 -9 -9 46.29 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 1739-99 ... 1 2 19 8
+CPT 2013 03 22 09 11 00 -999 -9 -9 -9 -9 -9 47.84 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 5267-99 ... 1 2 19 8
+CPT 2013 04 03 08 15 00 -999 -9 -9 -9 -9 -9 45.21 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 2325-99 ... 1 2 19 8
+CPT 2013 04 03 08 15 00 -999 -9 -9 -9 -9 -9 45.52 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 5149-99 ... 1 2 19 8
+CPT 2013 04 08 08 40 00 -999 -9 -9 -9 -9 -9 44.72 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 3197-99 ... 1 2 19 8
+CPT 2013 04 08 08 40 00 -999 -9 -9 -9 -9 -9 44.83 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 337-99 ... 1 2 19 8
+CPT 2013 04 29 08 03 00 -999 -9 -9 -9 -9 -9 50.06 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 1414-99 ... 1 2 19 8
+CPT 2013 04 29 08 03 00 -999 -9 -9 -9 -9 -9 49.7 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 1538-99 ... 1 2 19 8
+CPT 2013 05 09 09 05 00 -999 -9 -9 -9 -9 -9 47.98 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 2338-99 ... 1 2 19 8
+CPT 2013 05 09 09 05 00 -999 -9 -9 -9 -9 -9 48.03 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 3882-99 ... 1 2 19 8
+CPT 2013 05 27 08 40 00 -999 -9 -9 -9 -9 -9 50.64 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 1002-99 ... 1 2 19 8
+CPT 2013 05 27 08 40 00 -999 -9 -9 -9 -9 -9 49.9 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 5100-99 ... 1 2 19 8
+CPT 2013 06 03 08 54 00 -999 -9 -9 -9 -9 -9 50.89 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 1957-99 ... 1 2 19 8
+CPT 2013 06 03 08 54 00 -999 -9 -9 -9 -9 -9 50.61 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 243-99 ... 1 2 19 8
+CPT 2013 06 07 08 23 00 -999 -9 -9 -9 -9 -9 53.34 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 1866-99 ... 1 2 19 8
+CPT 2013 06 07 08 23 00 -999 -9 -9 -9 -9 -9 53.21 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 4738-99 ... 1 2 19 8
+CPT 2013 06 13 08 50 00 -999 -9 -9 -9 -9 -9 53.28 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 2816-99 ... 1 2 19 8
+CPT 2013 06 13 08 50 00 -999 -9 -9 -9 -9 -9 52.54 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 5147-99 ... 1 2 19 8
+CPT 2013 06 26 09 08 00 -999 -9 -9 -9 -9 -9 53.71 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 1024-99 ... 1 2 19 8
+CPT 2013 06 26 09 08 00 -999 -9 -9 -9 -9 -9 53.29 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 1671-99 ... 1 2 19 8
+CPT 2013 07 09 10 16 00 -999 -9 -9 -9 -9 -9 58.02 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 3171-99 ... 1 2 19 8
+CPT 2013 07 09 10 16 00 -999 -9 -9 -9 -9 -9 292.43 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 3171-99 A.. 3 2 19 8
+CPT 2013 07 09 10 16 00 -999 -9 -9 -9 -9 -9 58.77 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 5136-99 ... 1 2 19 8
+CPT 2013 07 09 10 16 00 -999 -9 -9 -9 -9 -9 61.24 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 5136-99 A.. 3 2 19 8
+CPT 2013 07 22 09 26 00 -999 -9 -9 -9 -9 -9 56.3 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 1038-99 ... 1 2 19 8
+CPT 2013 07 22 09 26 00 -999 -9 -9 -9 -9 -9 57.24 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 5193-99 ... 1 2 19 8
+CPT 2013 07 29 09 46 00 -999 -9 -9 -9 -9 -9 58.76 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 1427-99 ... 1 2 19 8
+CPT 2013 07 29 09 46 00 -999 -9 -9 -9 -9 -9 59.02 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 4762-99 ... 1 2 19 8
+CPT 2013 08 06 09 20 00 -999 -9 -9 -9 -9 -9 57.11 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 1674-99 ... 1 2 19 8
+CPT 2013 08 06 09 20 00 -999 -9 -9 -9 -9 -9 57.96 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 6217-66 ... 1 2 19 8
+CPT 2013 08 12 09 20 00 -999 -9 -9 -9 -9 -9 64.78 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 2063-99 ... 1 2 19 8
+CPT 2013 08 12 09 20 00 -999 -9 -9 -9 -9 -9 63.89 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 2768-99 ... 1 2 19 8
+CPT 2013 08 29 09 18 00 -999 -9 -9 -9 -9 -9 59.15 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 3030-99 ... 1 2 19 8
+CPT 2013 08 29 09 18 00 -999 -9 -9 -9 -9 -9 58.93 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 4596-99 ... 1 2 19 8
+CPT 2013 09 09 09 23 00 -999 -9 -9 -9 -9 -9 60.15 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 2937-99 ... 1 2 19 8
+CPT 2013 09 09 09 23 00 -999 -9 -9 -9 -9 -9 59.85 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 5329-99 ... 1 2 19 8
+CPT 2013 09 12 08 40 00 -999 -9 -9 -9 -9 -9 61.12 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 2440-99 ... 1 2 19 8
+CPT 2013 09 12 08 40 00 -999 -9 -9 -9 -9 -9 61.51 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 2625-99 ... 1 2 19 8
+CPT 2013 09 19 09 11 00 -999 -9 -9 -9 -9 -9 66.01 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 249-99 ... 1 2 19 8
+CPT 2013 09 19 09 11 00 -999 -9 -9 -9 -9 -9 66.24 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 796-99 ... 1 2 19 8
+CPT 2013 09 23 09 06 00 -999 -9 -9 -9 -9 -9 62.99 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 4270-99 ... 1 2 19 8
+CPT 2013 09 23 09 06 00 -999 -9 -9 -9 -9 -9 62.66 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 4711-99 ... 1 2 19 8
+CPT 2013 10 04 09 45 00 -999 -9 -9 -9 -9 -9 60.29 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 1090-99 ... 1 2 19 8
+CPT 2013 10 04 09 45 00 -999 -9 -9 -9 -9 -9 59.19 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 290-99 ... 1 2 19 8
+CPT 2013 10 07 09 15 00 -999 -9 -9 -9 -9 -9 62.91 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 1592-99 ... 1 2 19 8
+CPT 2013 10 07 09 15 00 -999 -9 -9 -9 -9 -9 62.32 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 4905-99 ... 1 2 19 8
+CPT 2013 10 14 09 57 00 -999 -9 -9 -9 -9 -9 62.41 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 347-99 ... 1 2 19 8
+CPT 2013 10 14 09 57 00 -999 -9 -9 -9 -9 -9 61.98 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 6383-66 ... 1 2 19 8
+CPT 2013 10 21 09 45 00 -999 -9 -9 -9 -9 -9 58.2 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 3107-99 ... 1 2 19 8
+CPT 2013 10 21 09 45 00 -999 -9 -9 -9 -9 -9 58.15 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 327-99 ... 1 2 19 8
+CPT 2013 10 31 08 15 00 -999 -9 -9 -9 -9 -9 61.95 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 2585-99 ... 1 2 19 8
+CPT 2013 10 31 08 15 00 -999 -9 -9 -9 -9 -9 61.72 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 3341-99 ... 1 2 19 8
+CPT 2013 11 08 09 50 00 -999 -9 -9 -9 -9 -9 57.34 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 1645-99 ... 1 2 19 8
+CPT 2013 11 08 09 50 00 -999 -9 -9 -9 -9 -9 57.46 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 934-99 ... 1 2 19 8
+CPT 2013 11 14 10 10 00 -999 -9 -9 -9 -9 -9 56.66 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 1048-99 ... 1 2 19 8
+CPT 2013 11 14 10 10 00 -999 -9 -9 -9 -9 -9 56.26 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 3491-99 ... 1 2 19 8
+CPT 2013 11 21 08 30 00 -999 -9 -9 -9 -9 -9 54.37 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 2314-99 ... 1 2 19 8
+CPT 2013 11 21 09 48 00 -999 -9 -9 -9 -9 -9 54.05 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 151-99 ... 1 2 19 8
+CPT 2013 11 21 09 48 00 -999 -9 -9 -9 -9 -9 54.09 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 4490-99 ... 1 2 19 8
+CPT 2013 11 28 09 10 00 -999 -9 -9 -9 -9 -9 50.71 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 4789-99 ... 1 2 19 8
+CPT 2013 11 28 09 10 00 -999 -9 -9 -9 -9 -9 51.06 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 787-99 ... 1 2 19 8
+CPT 2013 12 05 09 35 00 -999 -9 -9 -9 -9 -9 47.9 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 3482-99 ... 1 2 19 8
+CPT 2013 12 05 09 35 00 -999 -9 -9 -9 -9 -9 47.96 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 930-99 ... 1 2 19 8
+CPT 2013 12 17 08 50 00 -999 -9 -9 -9 -9 -9 45.63 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 4120-99 ... 1 2 19 8
+CPT 2013 12 17 08 50 00 -999 -9 -9 -9 -9 -9 45.15 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 955-99 ... 1 2 19 8
+CPT 2013 12 19 09 40 00 -999 -9 -9 -9 -9 -9 48.73 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 4370-99 ... 1 2 19 8
+CPT 2013 12 19 09 40 00 -999 -9 -9 -9 -9 -9 48.39 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 4472-99 ... 1 2 19 8
+CPT 2013 12 24 08 35 00 -999 -9 -9 -9 -9 -9 50.04 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 4101-99 ... 1 2 19 8
+CPT 2013 12 24 08 35 00 -999 -9 -9 -9 -9 -9 50.25 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 6292-66 ... 1 2 19 8
+CPT 2014 01 07 09 30 00 -999 -9 -9 -9 -9 -9 43.01 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 253-99 ... 1 2 19 8
+CPT 2014 01 07 09 30 00 -999 -9 -9 -9 -9 -9 42.74 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 3388-99 ... 1 2 19 8
+CPT 2014 01 09 08 45 00 -999 -9 -9 -9 -9 -9 49.29 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 2123-99 ... 1 2 19 8
+CPT 2014 01 09 08 45 00 -999 -9 -9 -9 -9 -9 48.82 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 6397-66 ... 1 2 19 8
+CPT 2014 01 13 10 00 00 -999 -9 -9 -9 -9 -9 40.62 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 2901-99 ... 1 2 19 8
+CPT 2014 01 13 10 00 00 -999 -9 -9 -9 -9 -9 40.64 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 4000-99 ... 1 2 19 8
+CPT 2014 01 16 09 25 00 -999 -9 -9 -9 -9 -9 43.04 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 1562-99 ... 1 2 19 8
+CPT 2014 01 16 09 25 00 -999 -9 -9 -9 -9 -9 42.96 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 5119-99 ... 1 2 19 8
+CPT 2014 01 20 08 40 00 -999 -9 -9 -9 -9 -9 41.02 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 411-99 ... 1 2 19 8
+CPT 2014 01 20 08 40 00 -999 -9 -9 -9 -9 -9 41.13 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 4124-99 ... 1 2 19 8
+CPT 2014 01 30 10 15 00 -999 -9 -9 -9 -9 -9 45.34 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 4325-99 ... 1 2 19 8
+CPT 2014 01 30 10 15 00 -999 -9 -9 -9 -9 -9 45.02 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 4577-99 ... 1 2 19 8
+CPT 2014 02 10 08 36 00 -999 -9 -9 -9 -9 -9 44.58 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 4721-99 ... 1 2 19 8
+CPT 2014 02 10 08 36 00 -999 -9 -9 -9 -9 -9 44.11 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 733-99 ... 1 2 19 8
+CPT 2014 02 20 09 12 00 -999 -9 -9 -9 -9 -9 39.49 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 2985-99 ... 1 2 19 8
+CPT 2014 02 20 09 12 00 -999 -9 -9 -9 -9 -9 40.14 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 74-99 ... 1 2 19 8
+CPT 2014 02 24 09 45 00 -999 -9 -9 -9 -9 -9 43.63 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 3209-99 ... 1 2 19 8
+CPT 2014 02 24 09 45 00 -999 -9 -9 -9 -9 -9 44.08 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 6037-66 ... 1 2 19 8
+CPT 2014 03 03 08 50 00 -999 -9 -9 -9 -9 -9 41.9 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 1525-99 ... 1 2 19 8
+CPT 2014 03 03 08 50 00 -999 -9 -9 -9 -9 -9 41.37 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 4050-99 ... 1 2 19 8
+CPT 2014 03 07 08 35 00 -999 -9 -9 -9 -9 -9 45.85 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 1068-99 ... 1 2 19 8
+CPT 2014 03 07 08 35 00 -999 -9 -9 -9 -9 -9 45.45 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 4430-99 ... 1 2 19 8
+CPT 2014 03 11 09 35 00 -999 -9 -9 -9 -9 -9 41.2 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 2692-99 ... 1 2 19 8
+CPT 2014 03 11 09 35 00 -999 -9 -9 -9 -9 -9 41.04 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 4948-99 ... 1 2 19 8
+CPT 2014 03 17 08 53 00 -999 -9 -9 -9 -9 -9 46.55 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 1615-99 ... 1 2 19 8
+CPT 2014 03 17 08 53 00 -999 -9 -9 -9 -9 -9 45.82 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 282-99 ... 1 2 19 8
+CPT 2014 03 24 09 40 00 -999 -9 -9 -9 -9 -9 48.88 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 2353-99 ... 1 2 19 8
+CPT 2014 03 24 09 40 00 -999 -9 -9 -9 -9 -9 50.51 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 6596-66 ... 1 2 19 8
+CPT 2014 04 01 09 17 00 -999 -9 -9 -9 -9 -9 45.1 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 3989-99 ... 1 2 19 8
+CPT 2014 04 01 09 17 00 -999 -9 -9 -9 -9 -9 44.8 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 4354-99 ... 1 2 19 8
+CPT 2014 04 03 08 40 00 -999 -9 -9 -9 -9 -9 43.38 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 1445-99 ... 1 2 19 8
+CPT 2014 04 03 08 40 00 -999 -9 -9 -9 -9 -9 42.88 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 1604-99 ... 1 2 19 8
+CPT 2014 04 17 09 05 00 -999 -9 -9 -9 -9 -9 64.01 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 2560-99 .X. 2 2 19 8
+CPT 2014 04 17 09 05 00 -999 -9 -9 -9 -9 -9 62.63 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 4688-99 .X. 2 2 19 8
+CPT 2014 05 05 09 35 00 -999 -9 -9 -9 -9 -9 48.4 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 2856-99 ... 1 2 19 8
+CPT 2014 05 05 09 35 00 -999 -9 -9 -9 -9 -9 48.35 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 6493-66 ... 1 2 19 8
+CPT 2014 05 22 09 20 00 -999 -9 -9 -9 -9 -9 56.2 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 2474-99 ... 1 2 19 8
+CPT 2014 05 26 10 24 00 -999 -9 -9 -9 -9 -9 51.27 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 4300-99 ... 1 2 19 8
+CPT 2014 06 02 10 05 00 -999 -9 -9 -9 -9 -9 50.69 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 4071-99 ... 1 2 19 8
+CPT 2014 06 02 10 05 00 -999 -9 -9 -9 -9 -9 50.24 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 4658-99 ... 1 2 19 8
+CPT 2014 06 05 08 35 00 -999 -9 -9 -9 -9 -9 50.5 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 5147-99 ... 1 2 19 8
+CPT 2014 06 05 08 35 00 -999 -9 -9 -9 -9 -9 50.29 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 6255-66 ... 1 2 19 8
+CPT 2014 06 09 09 15 00 -999 -9 -9 -9 -9 -9 51.18 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 3132-99 ... 1 2 19 8
+CPT 2014 06 09 09 15 00 -999 -9 -9 -9 -9 -9 50.7 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 3400-99 ... 1 2 19 8
+CPT 2014 06 19 09 18 00 -999 -9 -9 -9 -9 -9 52.35 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 3103-99 ... 1 2 19 8
+CPT 2014 06 19 09 18 00 -999 -9 -9 -9 -9 -9 52.87 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 428-99 ... 1 2 19 8
+CPT 2014 06 26 08 25 00 -999 -9 -9 -9 -9 -9 56.26 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 1537-99 ... 1 2 19 8
+CPT 2014 06 26 08 25 00 -999 -9 -9 -9 -9 -9 56.18 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 945-99 ... 1 2 19 8
+CPT 2014 08 05 08 53 00 -999 -9 -9 -9 -9 -9 61.53 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 1463-99 ... 1 2 19 8
+CPT 2014 08 05 08 53 00 -999 -9 -9 -9 -9 -9 62.26 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 3891-99 ... 1 2 19 8
+CPT 2014 08 20 09 55 00 -999 -9 -9 -9 -9 -9 59.77 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 5029-99 ... 1 2 19 8
+CPT 2014 08 20 09 55 00 -999 -9 -9 -9 -9 -9 60.15 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 5406-99 ... 1 2 19 8
+CPT 2014 08 21 09 05 00 -999 -9 -9 -9 -9 -9 58.71 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 3052-99 ... 1 2 19 8
+CPT 2014 08 21 09 05 00 -999 -9 -9 -9 -9 -9 58.74 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 3316-99 ... 1 2 19 8
+CPT 2014 08 26 08 50 00 -999 -9 -9 -9 -9 -9 259.19 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 1488-99 .X. 2 2 19 8
+CPT 2014 08 26 08 50 00 -999 -9 -9 -9 -9 -9 258.94 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 6184-66 .X. 2 2 19 8
+CPT 2014 08 28 09 00 00 -999 -9 -9 -9 -9 -9 61.12 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 4063-99 ... 1 2 19 8
+CPT 2014 08 28 09 00 00 -999 -9 -9 -9 -9 -9 61.29 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 740-99 ... 1 2 19 8
+CPT 2014 09 08 10 10 00 -999 -9 -9 -9 -9 -9 61.83 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 3360-99 ... 1 2 19 8
+CPT 2014 09 08 10 10 00 -999 -9 -9 -9 -9 -9 61.06 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 500-99 ... 1 2 19 8
+CPT 2014 09 11 09 42 00 -999 -9 -9 -9 -9 -9 61.49 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 5280-99 ... 1 2 19 8
+CPT 2014 09 11 09 42 00 -999 -9 -9 -9 -9 -9 60.93 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 881-99 ... 1 2 19 8
+CPT 2014 09 17 11 36 00 -999 -9 -9 -9 -9 -9 68.8 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 3012-99 ... 1 2 19 8
+CPT 2014 09 17 11 36 00 -999 -9 -9 -9 -9 -9 69.01 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 3190-99 ... 1 2 19 8
+CPT 2014 09 19 10 52 00 -999 -9 -9 -9 -9 -9 61.03 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 1547-99 ... 1 2 19 8
+CPT 2014 09 19 10 52 00 -999 -9 -9 -9 -9 -9 59.38 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 4956-99 ... 1 2 19 8
+CPT 2014 09 25 08 26 00 -999 -9 -9 -9 -9 -9 63.35 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 4064-99 ... 1 2 19 8
+CPT 2014 09 25 08 26 00 -999 -9 -9 -9 -9 -9 64.12 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 407-99 ... 1 2 19 8
+CPT 2014 10 09 09 38 00 -999 -9 -9 -9 -9 -9 61.39 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 1011-99 ... 1 2 19 8
+CPT 2014 10 09 09 38 00 -999 -9 -9 -9 -9 -9 59.96 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 317-99 ... 1 2 19 8
+CPT 2014 10 13 09 21 00 -999 -9 -9 -9 -9 -9 61.3 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 2852-99 ... 1 2 19 8
+CPT 2014 10 13 09 21 00 -999 -9 -9 -9 -9 -9 61.81 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 6631-66 ... 1 2 19 8
+CPT 2014 10 30 08 55 00 -999 -9 -9 -9 -9 -9 58.55 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 3543-99 ... 1 2 19 8
+CPT 2014 10 30 08 55 00 -999 -9 -9 -9 -9 -9 59.08 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 947-99 ... 1 2 19 8
+CPT 2014 11 10 09 15 00 -999 -9 -9 -9 -9 -9 57.16 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 3141-99 ... 1 2 19 8
+CPT 2014 11 10 09 15 00 -999 -9 -9 -9 -9 -9 56.94 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 4951-99 ... 1 2 19 8
+CPT 2014 11 13 08 45 00 -999 -9 -9 -9 -9 -9 59.56 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 3131-99 ... 1 2 19 8
+CPT 2014 11 13 08 45 00 -999 -9 -9 -9 -9 -9 58.53 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 4928-99 ... 1 2 19 8
+CPT 2014 11 27 09 10 00 -999 -9 -9 -9 -9 -9 55.79 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 1593-99 ... 1 2 19 8
+CPT 2014 11 27 09 10 00 -999 -9 -9 -9 -9 -9 56.45 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 6114-66 ... 1 2 19 8
+CPT 2014 12 01 09 48 00 -999 -9 -9 -9 -9 -9 55.27 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 3006-99 ... 1 2 19 8
+CPT 2014 12 01 09 48 00 -999 -9 -9 -9 -9 -9 54.27 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 4992-99 ... 1 2 19 8
+CPT 2014 12 10 09 00 00 -999 -9 -9 -9 -9 -9 56.92 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 257-99 +.. 3 2 19 8
+CPT 2014 12 10 09 00 00 -999 -9 -9 -9 -9 -9 52.84 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 4136-99 -.. 3 2 19 8
+CPT 2014 12 12 08 55 00 -999 -9 -9 -9 -9 -9 49.14 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 2182-99 ... 1 2 19 8
+CPT 2014 12 12 08 55 00 -999 -9 -9 -9 -9 -9 48.6 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 3661-99 ... 1 2 19 8
+CPT 2014 12 31 07 53 00 -999 -9 -9 -9 -9 -9 46.06 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 1428-99 ... 1 2 19 8
+CPT 2014 12 31 07 53 00 -999 -9 -9 -9 -9 -9 44.52 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 2172-99 ... 1 2 19 8
+CPT 2015 01 19 09 40 00 -999 -9 -9 -9 -9 -9 41.45 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 3042-99 ... 1 2 19 8
+CPT 2015 01 19 09 40 00 -999 -9 -9 -9 -9 -9 41.69 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 352-99 ... 1 2 19 8
+CPT 2015 01 26 09 20 00 -999 -9 -9 -9 -9 -9 42.45 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 426-99 ... 1 2 19 8
+CPT 2015 01 26 09 20 00 -999 -9 -9 -9 -9 -9 42.77 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 4713-99 ... 1 2 19 8
+CPT 2015 02 05 09 35 00 -999 -9 -9 -9 -9 -9 41.08 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 1751-99 ... 1 2 19 8
+CPT 2015 02 05 09 35 00 -999 -9 -9 -9 -9 -9 41.08 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 1981-99 ... 1 2 19 8
+CPT 2015 03 05 08 55 00 -999 -9 -9 -9 -9 -9 40.58 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 1356-99 ... 1 2 19 8
+CPT 2015 03 05 08 55 00 -999 -9 -9 -9 -9 -9 41.03 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 1755-99 ... 1 2 19 8
+CPT 2015 03 16 08 57 00 -999 -9 -9 -9 -9 -9 43.22 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 2657-99 ... 1 2 19 8
+CPT 2015 03 16 08 57 00 -999 -9 -9 -9 -9 -9 43.23 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 3041-99 ... 1 2 19 8
+CPT 2015 03 26 09 05 00 -999 -9 -9 -9 -9 -9 45.99 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 1647-99 ... 1 2 19 8
+CPT 2015 03 26 09 05 00 -999 -9 -9 -9 -9 -9 46.29 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 2445-99 ... 1 2 19 8
+CPT 2015 04 02 09 11 00 -999 -9 -9 -9 -9 -9 44.42 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 171-99 ... 1 2 19 8
+CPT 2015 04 02 09 11 00 -999 -9 -9 -9 -9 -9 44.7 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 1794-99 ... 1 2 19 8
+CPT 2015 04 16 08 40 00 -999 -9 -9 -9 -9 -9 44.18 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 2531-99 ... 1 2 19 8
+CPT 2015 04 16 08 40 00 -999 -9 -9 -9 -9 -9 43.88 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 4127-99 ... 1 2 19 8
+CPT 2015 04 23 10 55 00 -999 -9 -9 -9 -9 -9 48.49 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 1642-99 ... 1 2 19 8
+CPT 2015 04 23 10 55 00 -999 -9 -9 -9 -9 -9 46.3 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 2804-99 ... 1 2 19 8
+CPT 2015 04 29 10 08 00 -999 -9 -9 -9 -9 -9 50.86 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 289-99 ... 1 2 19 8
+CPT 2015 04 29 10 08 00 -999 -9 -9 -9 -9 -9 50.48 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 5198-99 ... 1 2 19 8
+CPT 2015 05 26 09 14 00 -999 -9 -9 -9 -9 -9 61.01 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 4579-99 .X. 2 2 19 8
+CPT 2015 05 26 09 14 00 -999 -9 -9 -9 -9 -9 61.05 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 4885-99 .X. 2 2 19 8
+CPT 2015 06 01 08 40 00 -999 -9 -9 -9 -9 -9 50.28 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 2859-99 ... 1 2 19 8
+CPT 2015 06 01 08 40 00 -999 -9 -9 -9 -9 -9 51.25 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 3868-99 ... 1 2 19 8
+CPT 2015 06 23 09 13 00 -999 -9 -9 -9 -9 -9 52.33 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 151-99 ... 1 2 19 8
+CPT 2015 06 23 09 13 00 -999 -9 -9 -9 -9 -9 52.58 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 2553-99 ... 1 2 19 8
+CPT 2015 07 09 11 27 00 -999 -9 -9 -9 -9 -9 57.29 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 2742-99 ... 1 2 19 8
+CPT 2015 07 09 11 27 00 -999 -9 -9 -9 -9 -9 58.27 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 423-99 ... 1 2 19 8
+CPT 2015 07 27 11 13 00 -999 -9 -9 -9 -9 -9 57.28 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 1698-99 ... 1 2 19 8
+CPT 2015 07 27 11 13 00 -999 -9 -9 -9 -9 -9 57.85 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 4121-99 ... 1 2 19 8
+CPT 2015 07 30 11 05 00 -999 -9 -9 -9 -9 -9 58.08 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 3434-99 ... 1 2 19 8
+CPT 2015 07 30 11 05 00 -999 -9 -9 -9 -9 -9 57.98 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 4715-99 ... 1 2 19 8
+CPT 2015 08 13 09 25 00 -999 -9 -9 -9 -9 -9 62.23 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 515-99 ... 1 2 19 8
+CPT 2015 08 13 09 25 00 -999 -9 -9 -9 -9 -9 61.85 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 5317-99 ... 1 2 19 8
+CPT 2015 08 31 10 54 00 -999 -9 -9 -9 -9 -9 59.64 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 2144-99 ... 1 2 19 8
+CPT 2015 08 31 10 54 00 -999 -9 -9 -9 -9 -9 60.0 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 2967-99 ... 1 2 19 8
+CPT 2015 09 30 09 36 00 -999 -9 -9 -9 -9 -9 62.32 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 3289-99 ... 1 2 19 8
+CPT 2015 09 30 09 36 00 -999 -9 -9 -9 -9 -9 63.38 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 3557-99 ... 1 2 19 8
+CPT 2015 10 02 10 35 00 -999 -9 -9 -9 -9 -9 61.46 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 2676-99 ... 1 2 19 8
+CPT 2015 10 02 10 35 00 -999 -9 -9 -9 -9 -9 60.63 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 4693-99 ... 1 2 19 8
+CPT 2015 10 06 11 30 00 -999 -9 -9 -9 -9 -9 62.28 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 302-99 ... 1 2 19 8
+CPT 2015 10 06 13 30 00 -999 -9 -9 -9 -9 -9 63.26 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 1068-99 ... 1 2 19 8
+CPT 2015 10 12 10 55 00 -999 -9 -9 -9 -9 -9 65.44 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 2174-99 ... 1 2 19 8
+CPT 2015 10 12 10 55 00 -999 -9 -9 -9 -9 -9 66.11 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 4372-99 ... 1 2 19 8
+CPT 2015 11 09 08 50 00 -999 -9 -9 -9 -9 -9 65.56 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 1435-99 ... 1 2 19 8
+CPT 2015 11 09 08 50 00 -999 -9 -9 -9 -9 -9 64.84 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 2390-99 ... 1 2 19 8
+CPT 2015 11 12 09 41 00 -999 -9 -9 -9 -9 -9 61.01 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 1318-99 ... 1 2 19 8
+CPT 2015 11 12 09 41 00 -999 -9 -9 -9 -9 -9 61.1 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 2349-99 ... 1 2 19 8
+CPT 2015 12 09 08 15 00 -999 -9 -9 -9 -9 -9 60.59 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 2388-99 ... 1 2 19 8
+CPT 2015 12 09 08 15 00 -999 -9 -9 -9 -9 -9 59.17 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 4910-99 ... 1 2 19 8
+CPT 2016 01 28 08 19 00 -999 -9 -9 -9 -9 -9 48.71 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 1681-99 ... 1 2 19 8
+CPT 2016 01 28 08 19 00 -999 -9 -9 -9 -9 -9 49.17 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 3499-99 ... 1 2 19 8
+CPT 2016 03 10 09 10 00 -999 -9 -9 -9 -9 -9 47.26 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 1478-99 ... 1 2 19 8
+CPT 2016 03 10 09 10 00 -999 -9 -9 -9 -9 -9 47.48 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 4371-99 ... 1 2 19 8
+CPT 2016 03 18 08 58 00 -999 -9 -9 -9 -9 -9 47.87 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 4034-99 ... 1 2 19 8
+CPT 2016 03 18 08 58 00 -999 -9 -9 -9 -9 -9 47.88 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 5285-99 ... 1 2 19 8
+CPT 2016 03 23 08 55 00 -999 -9 -9 -9 -9 -9 48.75 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 1487-99 ... 1 2 19 8
+CPT 2016 03 23 08 55 00 -999 -9 -9 -9 -9 -9 49.61 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 1553-99 ... 1 2 19 8
+CPT 2016 03 24 09 35 00 -999 -9 -9 -9 -9 -9 46.59 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 2871-99 ... 1 2 19 8
+CPT 2016 03 24 09 35 00 -999 -9 -9 -9 -9 -9 46.77 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 977-99 ... 1 2 19 8
+CPT 2016 04 11 11 30 00 -999 -9 -9 -9 -9 -9 56.43 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 1562-99 ... 1 2 19 8
+CPT 2016 04 11 11 30 00 -999 -9 -9 -9 -9 -9 57.67 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 530-99 ... 1 2 19 8
+CPT 2016 04 21 10 08 00 -999 -9 -9 -9 -9 -9 58.25 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 2414-99 ... 1 2 19 8
+CPT 2016 04 21 10 08 00 -999 -9 -9 -9 -9 -9 57.02 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 4123-99 ... 1 2 19 8
+CPT 2016 04 25 09 55 00 -999 -9 -9 -9 -9 -9 49.7 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 1307-99 ... 1 2 19 8
+CPT 2016 04 25 09 55 00 -999 -9 -9 -9 -9 -9 50.68 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 1474-99 ... 1 2 19 8
+CPT 2016 04 29 08 30 00 -999 -9 -9 -9 -9 -9 52.09 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 2884-99 ... 1 2 19 8
+CPT 2016 05 19 08 20 00 -999 -9 -9 -9 -9 -9 52.97 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 1567-99 ... 1 2 19 8
+CPT 2016 05 19 08 20 00 -999 -9 -9 -9 -9 -9 53.06 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 4508-99 ... 1 2 19 8
+CPT 2016 06 27 08 55 00 -999 -9 -9 -9 -9 -9 56.12 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 1355-99 ... 1 2 19 8
+CPT 2016 06 27 08 55 00 -999 -9 -9 -9 -9 -9 55.69 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 4921-99 ... 1 2 19 8
+CPT 2016 07 18 08 50 00 -999 -9 -9 -9 -9 -9 58.43 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 5439-99 ... 1 2 19 8
+CPT 2016 07 18 08 50 00 -999 -9 -9 -9 -9 -9 57.3 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 5616-99 ... 1 2 19 8
+CPT 2016 07 20 10 15 00 -999 -9 -9 -9 -9 -9 66.29 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 5444-99 ... 1 2 19 8
+CPT 2016 07 20 10 15 00 -999 -9 -9 -9 -9 -9 65.67 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 5457-99 ... 1 2 19 8
+CPT 2016 07 21 08 55 00 -999 -9 -9 -9 -9 -9 118.02 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 3906-99 -.. 3 2 19 8
+CPT 2016 07 21 08 55 00 -999 -9 -9 -9 -9 -9 127.56 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 4655-99 +.. 3 2 19 8
+CPT 2016 08 15 09 30 00 -999 -9 -9 -9 -9 -9 65.76 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 1702-99 ... 1 2 19 8
+CPT 2016 08 15 09 30 00 -999 -9 -9 -9 -9 -9 67.28 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 2464-99 ... 1 2 19 8
+CPT 2016 08 25 09 30 00 -999 -9 -9 -9 -9 -9 60.2 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 5620-99 ... 1 2 19 8
+CPT 2016 08 25 09 30 00 -999 -9 -9 -9 -9 -9 60.36 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 5637-99 ... 1 2 19 8
+CPT 2016 09 02 09 40 00 -999 -9 -9 -9 -9 -9 59.39 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 5465-99 ... 1 2 19 8
+CPT 2016 09 02 09 40 00 -999 -9 -9 -9 -9 -9 60.38 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 5608-99 ... 1 2 19 8
+CPT 2016 09 30 09 15 00 -999 -9 -9 -9 -9 -9 62.01 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 4826-99 ... 1 2 19 8
+CPT 2016 09 30 09 15 00 -999 -9 -9 -9 -9 -9 61.99 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 5426-99 ... 1 2 19 8
+CPT 2016 10 10 09 25 00 -999 -9 -9 -9 -9 -9 69.69 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 1799-99 ... 1 2 19 8
+CPT 2016 10 10 09 25 00 -999 -9 -9 -9 -9 -9 70.68 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 3288-99 ... 1 2 19 8
+CPT 2016 10 11 09 00 00 -999 -9 -9 -9 -9 -9 63.24 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 5277-99 ... 1 2 19 8
+CPT 2016 10 11 09 00 00 -999 -9 -9 -9 -9 -9 64.02 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 707-99 ... 1 2 19 8
+CPT 2016 10 21 08 50 00 -999 -9 -9 -9 -9 -9 62.45 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 3298-99 ... 1 2 19 8
+CPT 2016 10 21 08 50 00 -999 -9 -9 -9 -9 -9 62.98 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 3887-99 ... 1 2 19 8
+CPT 2016 10 28 08 55 00 -999 -9 -9 -9 -9 -9 61.47 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 2831-99 ... 1 2 19 8
+CPT 2016 10 28 08 55 00 -999 -9 -9 -9 -9 -9 62.24 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 960-99 ... 1 2 19 8
+CPT 2016 11 04 09 15 00 -999 -9 -9 -9 -9 -9 58.84 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 14-99 ... 1 2 19 8
+CPT 2016 11 24 09 25 00 -999 -9 -9 -9 -9 -9 57.84 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 901-99 ... 1 2 19 8
+CPT 2016 11 24 09 25 00 -999 -9 -9 -9 -9 -9 57.64 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 937-99 ... 1 2 19 8
+CPT 2016 12 19 09 25 00 -999 -9 -9 -9 -9 -9 60.38 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 2793-99 .X. 2 2 19 8
+CPT 2016 12 19 09 25 00 -999 -9 -9 -9 -9 -9 60.56 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 535-99 .X. 2 2 19 8
+CPT 2016 12 22 10 15 00 -999 -9 -9 -9 -9 -9 50.45 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 1875-99 ... 1 2 19 8
+CPT 2016 12 22 10 15 00 -999 -9 -9 -9 -9 -9 49.9 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 2754-99 ... 1 2 19 8
+CPT 2017 01 12 08 41 00 -999 -9 -9 -9 -9 -9 44.38 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 3540-99 ... 1 2 19 8
+CPT 2017 01 12 08 41 00 -999 -9 -9 -9 -9 -9 45.23 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 3725-99 ... 1 2 19 8
+CPT 2017 01 24 09 45 00 -999 -9 -9 -9 -9 -9 44.26 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 2019-99 ... 1 2 19 8
+CPT 2017 01 24 09 45 00 -999 -9 -9 -9 -9 -9 44.33 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 2254-99 ... 1 2 19 8
+CPT 2017 01 30 09 30 00 -999 -9 -9 -9 -9 -9 42.68 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 3201-99 ... 1 2 19 8
+CPT 2017 01 30 09 30 00 -999 -9 -9 -9 -9 -9 42.6 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 716-99 ... 1 2 19 8
+CPT 2017 02 16 11 57 00 -999 -9 -9 -9 -9 -9 44.92 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 211-99 ... 1 2 19 8
+CPT 2017 02 16 11 57 00 -999 -9 -9 -9 -9 -9 44.19 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 415-99 ... 1 2 19 8
+CPT 2017 03 06 11 00 00 -999 -9 -9 -9 -9 -9 51.55 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 377-99 ... 1 2 19 8
+CPT 2017 03 06 11 00 00 -999 -9 -9 -9 -9 -9 51.82 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 4891-99 ... 1 2 19 8
+CPT 2017 03 15 08 50 00 -999 -9 -9 -9 -9 -9 43.83 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 1432-99 ... 1 2 19 8
+CPT 2017 03 15 08 50 00 -999 -9 -9 -9 -9 -9 43.55 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 4541-99 ... 1 2 19 8
+CPT 2017 03 23 10 45 00 -999 -9 -9 -9 -9 -9 47.84 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 2317-99 ... 1 2 19 8
+CPT 2017 03 23 10 45 00 -999 -9 -9 -9 -9 -9 50.54 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 2386-99 ... 1 2 19 8
+CPT 2017 03 27 07 37 00 -999 -9 -9 -9 -9 -9 45.6 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 289-99 ... 1 2 19 8
+CPT 2017 03 27 07 37 00 -999 -9 -9 -9 -9 -9 46.11 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 4866-99 ... 1 2 19 8
+CPT 2017 05 11 09 10 00 -999 -9 -9 -9 -9 -9 48.09 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 2800-99 ... 1 2 19 8
+CPT 2017 05 11 09 10 00 -999 -9 -9 -9 -9 -9 47.78 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 4686-99 ... 1 2 19 8
+CPT 2017 06 12 09 30 00 -999 -9 -9 -9 -9 -9 55.35 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 1080-99 ... 1 2 19 8
+CPT 2017 06 12 09 30 00 -999 -9 -9 -9 -9 -9 54.7 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 4922-99 ... 1 2 19 8
+CPT 2017 06 19 11 45 00 -999 -9 -9 -9 -9 -9 55.87 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 1127-99 ... 1 2 19 8
+CPT 2017 06 19 11 45 00 -999 -9 -9 -9 -9 -9 55.35 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 2436-99 ... 1 2 19 8
+CPT 2017 07 18 09 15 00 -999 -9 -9 -9 -9 -9 58.65 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 3213-99 ... 1 2 19 8
+CPT 2017 07 18 09 15 00 -999 -9 -9 -9 -9 -9 57.96 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 3281-99 ... 1 2 19 8
+CPT 2017 07 20 09 30 00 -999 -9 -9 -9 -9 -9 59.79 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 1753-99 ... 1 2 19 8
+CPT 2017 07 20 09 30 00 -999 -9 -9 -9 -9 -9 59.18 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 4682-99 ... 1 2 19 8
+CPT 2017 08 03 10 56 00 -999 -9 -9 -9 -9 -9 61.4 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 2171-99 ... 1 2 19 8
+CPT 2017 08 03 10 56 00 -999 -9 -9 -9 -9 -9 63.48 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 3892-99 ... 1 2 19 8
+CPT 2017 08 16 10 20 00 -999 -9 -9 -9 -9 -9 60.29 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 2730-99 ... 1 2 19 8
+CPT 2017 08 16 10 20 00 -999 -9 -9 -9 -9 -9 61.11 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 695-99 ... 1 2 19 8
+CPT 2017 10 05 11 44 00 -999 -9 -9 -9 -9 -9 61.26 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 5336-99 ... 1 2 19 8
+CPT 2017 10 05 11 44 00 -999 -9 -9 -9 -9 -9 61.59 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 989-99 ... 1 2 19 8
+CPT 2017 11 01 07 35 00 -999 -9 -9 -9 -9 -9 73.07 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 1875-99 .X. 2 2 19 8
+CPT 2017 11 01 07 35 00 -999 -9 -9 -9 -9 -9 73.03 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 3610-99 .X. 2 2 19 8
+CPT 2017 11 09 10 08 00 -999 -9 -9 -9 -9 -9 64.4 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 2010-99 ... 1 2 19 8
+CPT 2017 11 09 10 08 00 -999 -9 -9 -9 -9 -9 62.01 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 3745-99 ... 1 2 19 8
+CPT 2017 12 13 11 05 00 -999 -9 -9 -9 -9 -9 52.93 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 2568-99 ... 1 2 19 8
+CPT 2017 12 13 11 05 00 -999 -9 -9 -9 -9 -9 53.53 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 4319-99 ... 1 2 19 8
+CPT 2018 02 06 11 05 00 -999 -9 -9 -9 -9 -9 49.14 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 3599-99 ... 1 2 19 8
+CPT 2018 02 06 11 05 00 -999 -9 -9 -9 -9 -9 49.11 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 3818-99 ... 1 2 19 8
+CPT 2018 02 15 09 16 00 -999 -9 -9 -9 -9 -9 44.49 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 1284-99 ... 1 2 19 8
+CPT 2018 02 15 09 16 00 -999 -9 -9 -9 -9 -9 45.13 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 2293-99 ... 1 2 19 8
+CPT 2018 04 05 12 36 00 -999 -9 -9 -9 -9 -9 51.63 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 1531-99 ... 1 2 19 8
+CPT 2018 04 05 12 36 00 -999 -9 -9 -9 -9 -9 51.84 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 3178-99 ... 1 2 19 8
+CPT 2018 04 12 10 41 00 -999 -9 -9 -9 -9 -9 64.32 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 2781-99 .X. 2 2 19 8
+CPT 2018 04 12 10 41 00 -999 -9 -9 -9 -9 -9 64.88 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 4957-99 .X. 2 2 19 8
+CPT 2018 04 18 13 10 00 -999 -9 -9 -9 -9 -9 52.91 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 1712-99 ... 1 2 19 8
+CPT 2018 04 18 13 10 00 -999 -9 -9 -9 -9 -9 53.22 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 5291-99 ... 1 2 19 8
+CPT 2018 04 19 09 20 00 -999 -9 -9 -9 -9 -9 48.83 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 2147-99 ... 1 2 19 8
+CPT 2018 04 19 09 20 00 -999 -9 -9 -9 -9 -9 48.92 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 2660-99 ... 1 2 19 8
+CPT 2018 04 23 12 27 00 -999 -9 -9 -9 -9 -9 53.45 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 105-99 ... 1 2 19 8
+CPT 2018 04 23 12 27 00 -999 -9 -9 -9 -9 -9 53.42 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 161-99 ... 1 2 19 8
+CPT 2018 04 26 12 15 00 -999 -9 -9 -9 -9 -9 48.19 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 3905-99 ... 1 2 19 8
+CPT 2018 04 26 12 15 00 -999 -9 -9 -9 -9 -9 48.54 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 4181-99 ... 1 2 19 8
+CPT 2018 05 03 08 18 00 -999 -9 -9 -9 -9 -9 51.11 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 2973-99 ... 1 2 19 8
+CPT 2018 05 03 08 18 00 -999 -9 -9 -9 -9 -9 49.71 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 3086-99 ... 1 2 19 8
+CPT 2018 05 10 09 45 00 -999 -9 -9 -9 -9 -9 114.26 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 1755-99 N.. 3 2 19 8
+CPT 2018 05 10 09 45 00 -999 -9 -9 -9 -9 -9 137.67 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 806-99 N.. 3 2 19 8
+CPT 2018 05 24 10 08 00 -999 -9 -9 -9 -9 -9 50.78 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 4894-99 ... 1 2 19 8
+CPT 2018 05 24 10 08 00 -999 -9 -9 -9 -9 -9 50.52 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 5678-99 ... 1 2 19 8
+CPT 2018 06 18 11 24 00 -999 -9 -9 -9 -9 -9 54.64 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 3840-99 ... 1 2 19 8
+CPT 2018 06 18 11 24 00 -999 -9 -9 -9 -9 -9 54.87 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 836-99 ... 1 2 19 8
+CPT 2018 07 12 10 28 00 -999 -9 -9 -9 -9 -9 57.1 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 3475-99 ... 1 2 19 8
+CPT 2018 07 12 10 28 00 -999 -9 -9 -9 -9 -9 56.03 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 5166-99 ... 1 2 19 8
+CPT 2018 07 30 09 20 00 -999 -9 -9 -9 -9 -9 66.46 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 1682-99 ... 1 2 19 8
+CPT 2018 07 30 09 20 00 -999 -9 -9 -9 -9 -9 66.42 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 2331-99 ... 1 2 19 8
+CPT 2018 08 06 09 45 00 -999 -9 -9 -9 -9 -9 60.68 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 5334-99 ... 1 2 19 8
+CPT 2018 08 06 09 45 00 -999 -9 -9 -9 -9 -9 60.12 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 5863-99 ... 1 2 19 8
+CPT 2018 08 06 10 10 00 -999 -9 -9 -9 -9 -9 62.32 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 4927-99 ... 1 2 19 8
+CPT 2018 08 06 10 10 00 -999 -9 -9 -9 -9 -9 62.83 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 587-99 ... 1 2 19 8
+CPT 2018 08 13 09 45 00 -999 -9 -9 -9 -9 -9 59.04 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 4545-99 ... 1 2 19 8
+CPT 2018 08 13 09 45 00 -999 -9 -9 -9 -9 -9 60.33 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 4706-99 ... 1 2 19 8
+CPT 2018 08 27 09 30 00 -999 -9 -9 -9 -9 -9 60.74 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 5446-99 ... 1 2 19 8
+CPT 2018 08 27 09 30 00 -999 -9 -9 -9 -9 -9 60.93 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 65-99 ... 1 2 19 8
+CPT 2018 09 03 10 05 00 -999 -9 -9 -9 -9 -9 74.89 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 2623-99 .X. 2 2 19 8
+CPT 2018 09 03 10 05 00 -999 -9 -9 -9 -9 -9 79.81 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 2970-99 N.. 3 2 19 8
+CPT 2018 09 13 09 10 00 -999 -9 -9 -9 -9 -9 64.6 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 1184-99 ... 1 2 19 8
+CPT 2018 09 13 09 10 00 -999 -9 -9 -9 -9 -9 64.2 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 1335-99 ... 1 2 19 8
+CPT 2018 09 17 13 00 00 -999 -9 -9 -9 -9 -9 61.67 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 3173-99 ... 1 2 19 8
+CPT 2018 09 17 13 00 00 -999 -9 -9 -9 -9 -9 61.33 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 955-99 ... 1 2 19 8
+CPT 2018 09 25 11 03 00 -999 -9 -9 -9 -9 -9 65.52 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 2264-99 ... 1 2 19 8
+CPT 2018 09 25 11 03 00 -999 -9 -9 -9 -9 -9 65.81 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 4619-99 ... 1 2 19 8
+CPT 2018 09 27 11 22 00 -999 -9 -9 -9 -9 -9 67.63 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 5314-99 ... 1 2 19 8
+CPT 2018 09 27 11 22 00 -999 -9 -9 -9 -9 -9 67.42 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 698-99 ... 1 2 19 8
+CPT 2018 10 01 12 30 00 -999 -9 -9 -9 -9 -9 63.35 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 3670-99 ... 1 2 19 8
+CPT 2018 10 01 12 30 00 -999 -9 -9 -9 -9 -9 63.59 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 437-99 ... 1 2 19 8
+CPT 2018 10 15 08 36 00 -999 -9 -9 -9 -9 -9 62.72 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 1573-99 ... 1 2 19 8
+CPT 2018 10 15 08 36 00 -999 -9 -9 -9 -9 -9 62.89 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 5645-99 ... 1 2 19 8
+CPT 2018 11 06 10 50 00 -999 -9 -9 -9 -9 -9 58.62 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 2479-99 ... 1 2 19 8
+CPT 2018 11 06 10 50 00 -999 -9 -9 -9 -9 -9 59.33 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 3194-99 ... 1 2 19 8
+CPT 2018 11 20 08 20 00 -999 -9 -9 -9 -9 -9 55.51 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 1386-99 ... 1 2 19 8
+CPT 2018 11 20 08 20 00 -999 -9 -9 -9 -9 -9 54.21 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 4673-99 ... 1 2 19 8
+CPT 2018 12 03 11 12 00 -999 -9 -9 -9 -9 -9 52.18 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 1659-99 ... 1 2 19 8
+CPT 2018 12 03 11 12 00 -999 -9 -9 -9 -9 -9 52.6 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 2974-99 ... 1 2 19 8
+CPT 2018 12 06 09 00 00 -999 -9 -9 -9 -9 -9 54.33 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 2396-99 ... 1 2 19 8
+CPT 2018 12 06 09 00 00 -999 -9 -9 -9 -9 -9 54.12 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 4027-99 ... 1 2 19 8
+CPT 2018 12 06 13 45 00 -999 -9 -9 -9 -9 -9 52.87 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 1156-99 ... 1 2 19 8
+CPT 2018 12 06 13 45 00 -999 -9 -9 -9 -9 -9 52.69 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 3614-99 ... 1 2 19 8
+CPT 2019 01 10 10 00 00 -999 -9 -9 -9 -9 -9 50.11 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 114-99 ... 1 2 19 8
+CPT 2019 01 10 10 00 00 -999 -9 -9 -9 -9 -9 50.34 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 3470-99 ... 1 2 19 8
+CPT 2019 01 14 11 50 00 -999 -9 -9 -9 -9 -9 44.92 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 2546-99 ... 1 2 19 8
+CPT 2019 01 14 11 50 00 -999 -9 -9 -9 -9 -9 44.81 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 620-99 ... 1 2 19 8
+CPT 2019 01 21 12 15 00 -999 -9 -9 -9 -9 -9 43.35 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 2033-99 ... 1 2 19 8
+CPT 2019 01 21 12 15 00 -999 -9 -9 -9 -9 -9 43.92 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 5460-99 ... 1 2 19 8
+CPT 2019 01 31 12 40 00 -999 -9 -9 -9 -9 -9 44.3 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 167-99 ... 1 2 19 8
+CPT 2019 01 31 12 40 00 -999 -9 -9 -9 -9 -9 43.47 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 5717-99 ... 1 2 19 8
+CPT 2019 03 07 12 34 56 -999 -9 -9 -9 -9 -9 43.57 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 1940-99 ... 1 2 19 8
+CPT 2019 03 07 12 34 56 -999 -9 -9 -9 -9 -9 43.79 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 980-99 ... 1 2 19 8
+CPT 2019 03 11 09 30 00 -999 -9 -9 -9 -9 -9 47.85 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 3991-99 ... 1 2 19 8
+CPT 2019 03 11 09 30 00 -999 -9 -9 -9 -9 -9 47.71 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 625-99 ... 1 2 19 8
+CPT 2019 03 28 11 28 00 -999 -9 -9 -9 -9 -9 48.56 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 3545-99 ... 1 2 19 8
+CPT 2019 03 28 11 28 00 -999 -9 -9 -9 -9 -9 49.23 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 4017-99 ... 1 2 19 8
+CPT 2019 04 01 09 00 00 -999 -9 -9 -9 -9 -9 45.15 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 2675-99 ... 1 2 19 8
+CPT 2019 04 01 09 00 00 -999 -9 -9 -9 -9 -9 44.26 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 3410-99 ... 1 2 19 8
+CPT 2019 04 04 11 00 00 -999 -9 -9 -9 -9 -9 46.56 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 1197-99 ... 1 2 19 8
+CPT 2019 04 04 11 00 00 -999 -9 -9 -9 -9 -9 47.7 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 2548-99 ... 1 2 19 8
+CPT 2019 04 23 08 45 00 -999 -9 -9 -9 -9 -9 47.87 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 2292-99 ... 1 2 19 8
+CPT 2019 04 23 08 45 00 -999 -9 -9 -9 -9 -9 48.15 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 3510-99 ... 1 2 19 8
+CPT 2019 05 02 12 46 00 -999 -9 -9 -9 -9 -9 54.26 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 3228-99 ... 1 2 19 8
+CPT 2019 05 02 12 46 00 -999 -9 -9 -9 -9 -9 54.21 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 5679-99 ... 1 2 19 8
+CPT 2019 05 27 11 30 00 -999 -9 -9 -9 -9 -9 51.08 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 1193-99 ... 1 2 19 8
+CPT 2019 05 27 11 30 00 -999 -9 -9 -9 -9 -9 50.98 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 798-99 ... 1 2 19 8
+CPT 2019 06 05 09 20 00 -999 -9 -9 -9 -9 -9 52.52 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 1206-99 ... 1 2 19 8
+CPT 2019 06 05 09 20 00 -999 -9 -9 -9 -9 -9 53.35 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 283-99 ... 1 2 19 8
+CPT 2019 06 06 09 12 00 -999 -9 -9 -9 -9 -9 51.96 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 3718-99 ... 1 2 19 8
+CPT 2019 06 06 09 12 00 -999 -9 -9 -9 -9 -9 51.59 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 3727-99 ... 1 2 19 8
+CPT 2019 06 10 11 14 00 -999 -9 -9 -9 -9 -9 55.37 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 2722-99 ... 1 3 26 8
+CPT 2019 06 10 11 14 00 -999 -9 -9 -9 -9 -9 55.36 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 5496-99 ... 1 3 26 8
+CPT 2019 06 11 09 15 00 -999 -9 -9 -9 -9 -9 56.13 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 3950-99 ... 1 3 26 8
+CPT 2019 06 11 09 15 00 -999 -9 -9 -9 -9 -9 56.21 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 4921-99 ... 1 3 26 8
+CPT 2019 06 24 09 30 00 -999 -9 -9 -9 -9 -9 55.4 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 1863-99 ... 1 3 26 8
+CPT 2019 06 24 09 30 00 -999 -9 -9 -9 -9 -9 54.69 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 1916-99 ... 1 3 26 8
+CPT 2019 06 24 10 08 00 -999 -9 -9 -9 -9 -9 54.52 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 239-99 ... 1 3 26 8
+CPT 2019 06 24 10 08 00 -999 -9 -9 -9 -9 -9 54.43 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 4533-99 ... 1 3 26 8
+CPT 2019 07 01 09 00 00 -999 -9 -9 -9 -9 -9 56.03 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 2644-99 ... 1 3 26 8
+CPT 2019 07 01 09 00 00 -999 -9 -9 -9 -9 -9 55.78 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 2903-99 ... 1 3 26 8
+CPT 2019 07 04 09 29 00 -999 -9 -9 -9 -9 -9 61.45 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 173-99 ... 1 3 26 8
+CPT 2019 07 04 09 29 00 -999 -9 -9 -9 -9 -9 61.35 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 3949-99 ... 1 3 26 8
+CPT 2019 07 08 11 30 00 -999 -9 -9 -9 -9 -9 71.21 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 285-99 .X. 2 3 26 8
+CPT 2019 07 08 11 30 00 -999 -9 -9 -9 -9 -9 71.71 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 363-99 .X. 2 3 26 8
+CPT 2019 07 11 09 15 00 -999 -9 -9 -9 -9 -9 61.69 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 2027-99 ... 1 3 26 8
+CPT 2019 07 11 09 15 00 -999 -9 -9 -9 -9 -9 61.08 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 3257-99 ... 1 3 26 8
+CPT 2019 07 18 09 30 00 -999 -9 -9 -9 -9 -9 72.77 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 2516-99 .X. 2 3 26 8
+CPT 2019 07 18 09 30 00 -999 -9 -9 -9 -9 -9 72.94 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 3388-99 .X. 2 3 26 8
+CPT 2019 07 23 09 45 00 -999 -9 -9 -9 -9 -9 61.45 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 2952-99 ... 1 3 26 8
+CPT 2019 07 23 09 45 00 -999 -9 -9 -9 -9 -9 61.19 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 4656-99 ... 1 3 26 8
+CPT 2019 08 05 09 15 00 -999 -9 -9 -9 -9 -9 61.64 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 3869-99 ... 1 3 26 8
+CPT 2019 08 05 09 15 00 -999 -9 -9 -9 -9 -9 62.05 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 539-99 ... 1 3 26 8
+CPT 2019 08 08 11 52 00 -999 -9 -9 -9 -9 -9 60.76 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 4103-99 ... 1 3 26 8
+CPT 2019 08 08 11 52 00 -999 -9 -9 -9 -9 -9 60.93 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 5649-99 ... 1 3 26 8
+CPT 2019 08 13 09 45 00 -999 -9 -9 -9 -9 -9 62.54 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 2940-99 ... 1 3 26 8
+CPT 2019 08 13 09 45 00 -999 -9 -9 -9 -9 -9 62.51 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 3840-99 ... 1 3 26 8
+CPT 2019 08 29 09 15 00 -999 -9 -9 -9 -9 -9 65.78 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 1316-99 ... 1 3 26 8
+CPT 2019 08 29 09 15 00 -999 -9 -9 -9 -9 -9 66.0 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 2172-99 ... 1 3 26 8
+CPT 2019 09 12 09 00 00 -999 -9 -9 -9 -9 -9 64.53 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 2144-99 ... 1 3 26 8
+CPT 2019 09 12 09 00 00 -999 -9 -9 -9 -9 -9 64.31 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 3524-99 ... 1 3 26 8
+CPT 2019 09 16 09 01 00 -999 -9 -9 -9 -9 -9 73.07 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 1573-99 ... 1 3 26 8
+CPT 2019 09 16 09 01 00 -999 -9 -9 -9 -9 -9 73.18 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 4500-99 ... 1 3 26 8
+CPT 2019 09 19 11 58 00 -999 -9 -9 -9 -9 -9 126.79 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 1432-99 .X. 2 3 26 8
+CPT 2019 09 19 11 58 00 -999 -9 -9 -9 -9 -9 126.07 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 2621-99 .X. 2 3 26 8
+CPT 2019 09 23 09 30 00 -999 -9 -9 -9 -9 -9 63.94 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 2942-99 ... 1 3 26 8
+CPT 2019 09 23 09 30 00 -999 -9 -9 -9 -9 -9 63.54 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 325-99 ... 1 3 26 8
+CPT 2019 09 30 08 45 00 -999 -9 -9 -9 -9 -9 67.67 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 4218-99 ... 1 3 26 8
+CPT 2019 09 30 08 45 00 -999 -9 -9 -9 -9 -9 67.7 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 945-99 ... 1 3 26 8
+CPT 2019 10 10 09 00 00 -999 -9 -9 -9 -9 -9 65.05 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 3161-99 ... 1 3 26 8
+CPT 2019 10 10 09 00 00 -999 -9 -9 -9 -9 -9 64.98 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 663-99 ... 1 3 26 8
+CPT 2019 10 14 09 30 00 -999 -9 -9 -9 -9 -9 72.52 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 1163-99 ... 1 3 26 8
+CPT 2019 10 14 09 30 00 -999 -9 -9 -9 -9 -9 72.5 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 4603-99 ... 1 3 26 8
+CPT 2019 10 24 13 50 00 -999 -9 -9 -9 -9 -9 70.03 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 1254-99 N.. 3 3 26 8
+CPT 2019 10 24 13 50 00 -999 -9 -9 -9 -9 -9 74.51 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 1623-99 N.. 3 3 26 8
+CPT 2019 10 28 09 45 00 -999 -9 -9 -9 -9 -9 63.69 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 2304-99 ... 1 3 26 8
+CPT 2019 10 28 09 45 00 -999 -9 -9 -9 -9 -9 63.87 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 5198-99 ... 1 3 26 8
+CPT 2019 10 28 12 39 00 -999 -9 -9 -9 -9 -9 64.21 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 1724-99 ... 1 3 26 8
+CPT 2019 10 28 12 39 00 -999 -9 -9 -9 -9 -9 63.87 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 2997-99 ... 1 3 26 8
+CPT 2019 10 30 11 27 00 -999 -9 -9 -9 -9 -9 66.93 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 1510-99 ... 1 3 26 8
+CPT 2019 10 30 11 27 00 -999 -9 -9 -9 -9 -9 66.41 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 4285-99 ... 1 3 26 8
+CPT 2019 11 07 09 17 00 -999 -9 -9 -9 -9 -9 61.98 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 2804-99 ... 1 3 26 8
+CPT 2019 11 07 09 17 00 -999 -9 -9 -9 -9 -9 62.23 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 2921-99 ... 1 3 26 8
+CPT 2019 11 18 12 06 00 -999 -9 -9 -9 -9 -9 61.04 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 2353-99 N.. 3 3 26 8
+CPT 2019 11 18 12 06 00 -999 -9 -9 -9 -9 -9 65.44 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 478-99 N.. 3 3 26 8
+CPT 2019 11 25 10 00 00 -999 -9 -9 -9 -9 -9 63.07 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 3437-99 ... 1 3 26 8
+CPT 2019 11 25 10 00 00 -999 -9 -9 -9 -9 -9 62.52 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 420-99 ... 1 3 26 8
+CPT 2019 12 02 11 00 00 -999 -9 -9 -9 -9 -9 60.28 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 407-99 ... 1 3 26 8
+CPT 2019 12 02 11 00 00 -999 -9 -9 -9 -9 -9 60.73 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 4909-99 ... 1 3 26 8
+CPT 2019 12 17 09 03 00 -999 -9 -9 -9 -9 -9 60.92 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 4490-99 ... 1 3 26 8
+CPT 2019 12 17 09 03 00 -999 -9 -9 -9 -9 -9 60.85 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 4612-99 ... 1 3 26 8
+CPT 2019 12 19 09 45 00 -999 -9 -9 -9 -9 -9 57.11 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 401-99 ... 1 3 26 8
+CPT 2019 12 19 09 45 00 -999 -9 -9 -9 -9 -9 56.97 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 5535-99 ... 1 3 26 8
+CPT 2020 01 16 09 15 00 -999 -9 -9 -9 -9 -9 57.82 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 3085-99 ... 1 3 26 8
+CPT 2020 01 16 09 15 00 -999 -9 -9 -9 -9 -9 57.78 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 3982-99 ... 1 3 26 8
+CPT 2020 01 20 08 45 00 -999 -9 -9 -9 -9 -9 55.98 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 1522-99 ... 1 3 26 8
+CPT 2020 01 20 08 45 00 -999 -9 -9 -9 -9 -9 55.85 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 4732-99 ... 1 3 26 8
+CPT 2020 01 30 09 45 00 -999 -9 -9 -9 -9 -9 60.88 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 1481-99 ... 1 3 26 8
+CPT 2020 01 30 09 45 00 -999 -9 -9 -9 -9 -9 60.79 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 5224-99 ... 1 3 26 8
+CPT 2020 02 03 09 45 00 -999 -9 -9 -9 -9 -9 88.33 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 1700-99 .X. 2 3 26 8
+CPT 2020 02 03 09 45 00 -999 -9 -9 -9 -9 -9 88.04 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 219-99 .X. 2 3 26 8
+CPT 2020 02 06 09 23 00 -999 -9 -9 -9 -9 -9 53.38 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 2634-99 ... 1 3 26 8
+CPT 2020 02 06 09 23 00 -999 -9 -9 -9 -9 -9 53.23 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 3652-99 ... 1 3 26 8
+CPT 2020 02 18 11 00 00 -999 -9 -9 -9 -9 -9 57.53 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 3640-99 ... 1 3 26 8
+CPT 2020 02 18 11 00 00 -999 -9 -9 -9 -9 -9 57.11 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 4687-99 ... 1 3 26 8
+CPT 2020 02 24 10 03 00 -999 -9 -9 -9 -9 -9 56.25 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 3882-99 ... 1 3 26 8
+CPT 2020 02 24 10 03 00 -999 -9 -9 -9 -9 -9 56.11 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 3976-99 ... 1 3 26 8
+CPT 2020 03 02 10 47 00 -999 -9 -9 -9 -9 -9 53.4 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 3539-99 ... 1 3 26 8
+CPT 2020 03 02 10 47 00 -999 -9 -9 -9 -9 -9 53.27 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 5452-99 ... 1 3 26 8
+CPT 2020 03 12 11 40 00 -999 -9 -9 -9 -9 -9 64.55 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 2692-99 .X. 2 3 26 8
+CPT 2020 03 12 11 40 00 -999 -9 -9 -9 -9 -9 65.13 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 4257-99 .X. 2 3 26 8
+CPT 2020 03 16 10 59 00 -999 -9 -9 -9 -9 -9 53.05 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 1145-99 ... 1 3 26 8
+CPT 2020 03 16 10 59 00 -999 -9 -9 -9 -9 -9 53.2 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 779-99 ... 1 3 26 8
+CPT 2020 03 23 10 00 00 -999 -9 -9 -9 -9 -9 54.01 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 3307-99 ... 1 3 26 8
+CPT 2020 03 23 10 00 00 -999 -9 -9 -9 -9 -9 53.77 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 420-99 ... 1 3 26 8
+CPT 2020 03 25 10 30 00 -999 -9 -9 -9 -9 -9 58.58 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 3437-99 ... 1 3 26 8
+CPT 2020 03 25 10 30 00 -999 -9 -9 -9 -9 -9 57.96 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 4491-99 ... 1 3 26 8
+CPT 2020 06 10 08 45 00 -999 -9 -9 -9 -9 -9 58.2 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 1440-99 ... 1 3 26 8
+CPT 2020 06 10 08 45 00 -999 -9 -9 -9 -9 -9 58.21 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 2859-99 ... 1 3 26 8
+CPT 2020 06 10 13 15 00 -999 -9 -9 -9 -9 -9 57.99 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 2254-99 ... 1 3 26 8
+CPT 2020 06 10 13 15 00 -999 -9 -9 -9 -9 -9 57.97 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 5331-99 ... 1 3 26 8
+CPT 2020 06 24 08 45 00 -999 -9 -9 -9 -9 -9 108.49 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 4024-99 N.. 3 3 26 8
+CPT 2020 06 24 08 45 00 -999 -9 -9 -9 -9 -9 103.49 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 5703-99 N.. 3 3 26 8
+CPT 2020 07 02 09 37 00 -999 -9 -9 -9 -9 -9 74.59 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 2451-99 ... 1 3 26 8
+CPT 2020 07 02 09 37 00 -999 -9 -9 -9 -9 -9 74.2 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 2917-99 ... 1 3 26 8
+CPT 2020 08 06 11 12 00 -999 -9 -9 -9 -9 -9 130.86 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 3613-99 .X. 2 3 26 8
+CPT 2020 08 06 11 12 00 -999 -9 -9 -9 -9 -9 128.99 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 606-99 .X. 2 3 26 8
+CPT 2020 08 11 09 16 00 -999 -9 -9 -9 -9 -9 68.7 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 2109-99 ... 1 3 26 8
+CPT 2020 08 11 09 16 00 -999 -9 -9 -9 -9 -9 67.36 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 2804-99 ... 1 3 26 8
+CPT 2020 11 19 09 26 00 -999 -9 -9 -9 -9 -9 64.99 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 2300-99 ... 1 3 26 8
+CPT 2020 11 19 09 26 00 -999 -9 -9 -9 -9 -9 65.24 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 2942-99 ... 1 3 26 8
+CPT 2020 11 23 08 30 00 -999 -9 -9 -9 -9 -9 63.12 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 2631-99 ... 1 3 26 8
+CPT 2020 11 23 08 30 00 -999 -9 -9 -9 -9 -9 63.05 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 5510-99 ... 1 3 26 8
+CPT 2020 12 14 11 30 00 -999 -9 -9 -9 -9 -9 57.82 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 4193-99 ... 1 3 26 8
+CPT 2020 12 14 11 30 00 -999 -9 -9 -9 -9 -9 57.79 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 5520-99 ... 1 3 26 8
+CPT 2020 12 21 11 11 00 -999 -9 -9 -9 -9 -9 58.27 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 3836-99 ... 1 3 26 8
+CPT 2020 12 21 11 11 00 -999 -9 -9 -9 -9 -9 58.41 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 4686-99 ... 1 3 26 8
+CPT 2020 12 31 08 15 00 -999 -9 -9 -9 -9 -9 52.46 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 1385-99 ... 1 3 26 8
+CPT 2020 12 31 08 15 00 -999 -9 -9 -9 -9 -9 52.96 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 2783-99 ... 1 3 26 8
+CPT 2021 01 21 12 20 00 -999 -9 -9 -9 -9 -9 48.07 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 1653-99 ... 1 3 26 8
+CPT 2021 01 21 12 20 00 -999 -9 -9 -9 -9 -9 48.42 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 3247-99 ... 1 3 26 8
+CPT 2021 02 04 09 00 00 -999 -9 -9 -9 -9 -9 46.48 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 151-99 ... 1 3 26 8
+CPT 2021 02 04 09 00 00 -999 -9 -9 -9 -9 -9 46.34 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 5422-99 ... 1 3 26 8
+CPT 2021 02 15 08 45 00 -999 -9 -9 -9 -9 -9 44.65 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 2577-99 ... 1 3 26 8
+CPT 2021 02 15 08 45 00 -999 -9 -9 -9 -9 -9 44.5 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 5253-99 ... 1 3 26 8
+CPT 2021 02 25 09 30 00 -999 -9 -9 -9 -9 -9 47.03 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 145-99 ... 1 3 26 8
+CPT 2021 02 25 09 30 00 -999 -9 -9 -9 -9 -9 46.88 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 2196-99 ... 1 3 26 8
+CPT 2021 03 08 09 20 00 -999 -9 -9 -9 -9 -9 44.34 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 1068-99 ... 1 3 26 8
+CPT 2021 03 08 09 20 00 -999 -9 -9 -9 -9 -9 44.22 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 4616-99 ... 1 3 26 8
+CPT 2021 04 29 08 45 00 -999 -9 -9 -9 -9 -9 50.84 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 5874-99 ... 1 3 26 8
+CPT 2021 04 29 08 45 00 -999 -9 -9 -9 -9 -9 50.94 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 799-99 ... 1 3 26 8
+CPT 2021 04 29 11 00 00 -999 -9 -9 -9 -9 -9 50.92 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 3162-99 ... 1 3 26 8
+CPT 2021 04 29 11 00 00 -999 -9 -9 -9 -9 -9 51.01 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 586-99 ... 1 3 26 8
+CPT 2021 05 07 08 27 00 -999 -9 -9 -9 -9 -9 54.99 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 1903-99 ... 1 3 26 8
+CPT 2021 05 10 09 15 00 -999 -9 -9 -9 -9 -9 52.11 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 3970-99 ... 1 3 26 8
+CPT 2021 05 10 09 15 00 -999 -9 -9 -9 -9 -9 52.12 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 5066-99 ... 1 3 26 8
+CPT 2021 05 21 09 15 00 -999 -9 -9 -9 -9 -9 51.68 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 1755-99 ... 1 3 26 8
+CPT 2021 05 21 09 15 00 -999 -9 -9 -9 -9 -9 51.49 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 5207-99 ... 1 3 26 8
+CPT 2021 05 27 10 30 00 -999 -9 -9 -9 -9 -9 54.21 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 3943-99 ... 1 3 26 8
+CPT 2021 05 27 10 30 00 -999 -9 -9 -9 -9 -9 54.14 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 4642-99 ... 1 3 26 8
+CPT 2021 06 01 10 24 00 -999 -9 -9 -9 -9 -9 233.32 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 4027-99 N.. 3 3 26 8
+CPT 2021 06 01 10 24 00 -999 -9 -9 -9 -9 -9 239.03 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 644-99 N.. 3 3 26 8
+CPT 2021 07 05 09 00 00 -999 -9 -9 -9 -9 -9 85.11 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 1489-99 .X. 2 3 26 8
+CPT 2021 07 05 09 00 00 -999 -9 -9 -9 -9 -9 86.46 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 4275-99 .X. 2 3 26 8
+CPT 2021 07 12 09 45 00 -999 -9 -9 -9 -9 -9 60.33 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 3085-99 ... 1 3 26 8
+CPT 2021 07 12 09 45 00 -999 -9 -9 -9 -9 -9 60.63 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 3880-99 ... 1 3 26 8
+CPT 2021 07 29 09 10 00 -999 -9 -9 -9 -9 -9 66.93 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 1458-99 ... 1 3 26 8
+CPT 2021 07 29 09 10 00 -999 -9 -9 -9 -9 -9 67.22 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 964-99 ... 1 3 26 8
+CPT 2021 08 10 09 40 00 -999 -9 -9 -9 -9 -9 78.24 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 2968-99 .X. 2 3 26 8
+CPT 2021 08 10 09 40 00 -999 -9 -9 -9 -9 -9 77.2 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 4767-99 .X. 2 3 26 8
+CPT 2021 08 19 08 45 00 -999 -9 -9 -9 -9 -9 64.54 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 3757-99 ... 1 3 26 8
+CPT 2021 08 19 08 45 00 -999 -9 -9 -9 -9 -9 63.78 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 4960-99 ... 1 3 26 8
+CPT 2021 08 23 09 19 00 -999 -9 -9 -9 -9 -9 64.26 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 3288-99 ... 1 3 26 8
+CPT 2021 08 23 09 19 00 -999 -9 -9 -9 -9 -9 64.65 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 726-99 ... 1 3 26 8
+CPT 2021 08 26 08 50 00 -999 -9 -9 -9 -9 -9 71.25 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 3748-99 ... 1 3 26 8
+CPT 2021 08 26 08 50 00 -999 -9 -9 -9 -9 -9 71.4 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 5619-99 ... 1 3 26 8
+CPT 2021 08 27 10 38 00 -999 -9 -9 -9 -9 -9 64.1 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 2818-99 ... 1 3 26 8
+CPT 2021 08 27 10 38 00 -999 -9 -9 -9 -9 -9 64.14 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 5813-99 ... 1 3 26 8
+CPT 2021 08 30 13 30 00 -999 -9 -9 -9 -9 -9 70.63 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 3620-99 ... 1 3 26 8
+CPT 2021 08 30 13 30 00 -999 -9 -9 -9 -9 -9 70.63 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 5467-99 ... 1 3 26 8
+CPT 2021 09 13 09 10 00 -999 -9 -9 -9 -9 -9 67.15 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 3172-99 ... 1 3 26 8
+CPT 2021 09 13 09 10 00 -999 -9 -9 -9 -9 -9 67.12 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 4652-99 ... 1 3 26 8
+CPT 2021 10 14 09 45 00 -999 -9 -9 -9 -9 -9 68.51 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 2793-99 ... 1 3 26 8
+CPT 2021 10 14 09 45 00 -999 -9 -9 -9 -9 -9 68.48 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 3870-99 ... 1 3 26 8
+CPT 2021 11 06 11 44 00 -999 -9 -9 -9 -9 -9 55.62 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 3427-99 .X. 2 3 26 8
+CPT 2021 11 06 11 44 00 -999 -9 -9 -9 -9 -9 55.63 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 4369-99 .X. 2 3 26 8
+CPT 2021 11 08 09 15 00 -999 -9 -9 -9 -9 -9 65.23 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 2360-99 ... 1 3 26 8
+CPT 2021 11 08 09 15 00 -999 -9 -9 -9 -9 -9 65.37 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 925-99 ... 1 3 26 8
+CPT 2021 11 17 10 45 00 -999 -9 -9 -9 -9 -9 62.3 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 1930-99 ... 1 3 26 8
+CPT 2021 11 17 10 45 00 -999 -9 -9 -9 -9 -9 62.17 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 2354-99 ... 1 3 26 8
+CPT 2021 12 09 09 55 00 -999 -9 -9 -9 -9 -9 55.21 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 2690-99 ... 1 3 26 8
+CPT 2021 12 09 09 55 00 -999 -9 -9 -9 -9 -9 55.18 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 712-99 ... 1 3 26 8
+CPT 2021 12 23 09 20 00 -999 -9 -9 -9 -9 -9 50.89 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 1630-99 ... 1 3 26 8
+CPT 2021 12 23 09 20 00 -999 -9 -9 -9 -9 -9 50.8 -999.999 -9 -34.3523 18.4891 260.0 230.0 30.0 2577-99 ... 1 3 26 8
